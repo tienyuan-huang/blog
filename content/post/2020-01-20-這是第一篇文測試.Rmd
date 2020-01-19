@@ -1,0 +1,33 @@
+---
+title: 這是第一篇文測試
+author: deadfate
+date: '2020-01-20'
+slug: test
+categories:
+  - test
+tags: []
+---
+#我愛燕魚！
+
+## 可以發大財了嗎？
+```{r}
+library(knitr);library(kableExtra);library(tidyverse)
+mtcars %>% kable()
+kable(mtcars,"html") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                 full_width = F) 
+```
+
+```{r}
+kable(mtcars,"html") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                 full_width = F, position = "float_right") %>%
+  scroll_box(width = "300px", height = "500px")
+
+kable(mtcars,"html") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                 full_width = F, position = "float_right") %>%
+  scroll_box(width = "300px", height = "500px")
+```  
+紅藕香殘玉簟秋。輕解羅裳，獨上蘭舟。雲中誰寄錦書來，雁字回時，月滿西樓。
+花自飄零水自流。一種相思，兩處閒愁。此情無計可消除，才下眉頭，卻上心頭。
