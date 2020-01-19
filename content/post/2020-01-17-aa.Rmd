@@ -1,0 +1,63 @@
+---
+title: 測試發大財2
+author: deadfate
+date: '2020-01-17'
+slug: test2
+categories:
+  - test
+tags: []
+output: blogdown::html_page
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+fit <- lm(dist ~ speed, data = cars)
+fit
+```
+
+# Including Plots
+
+You can also embed plots. See Figure \@ref(fig:pie) for example:
+
+```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
+par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
+  col = c('#0292D8', '#F7EA39', '#C4B632'),
+  init.angle = -50, border = NA
+)
+```
+
+```{r}
+library(knitr);library(kableExtra);library(tidyverse)
+mtcars %>% kable()
+kable(mtcars,"html") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                 full_width = F) 
+```
+
+```{r}
+kable(mtcars,"html") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                 full_width = F, position = "float_right") %>%
+  scroll_box(width = "300px", height = "500px")
+
+kable(mtcars,"html") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                 full_width = F, position = "float_right") %>%
+  scroll_box(width = "300px", height = "500px")
+```  
+紅藕香殘玉簟秋。輕解羅裳，獨上蘭舟。雲中誰寄錦書來，雁字回時，月滿西樓。
+花自飄零水自流。一種相思，兩處閒愁。此情無計可消除，才下眉頭，卻上心頭。
+

@@ -1,0 +1,35 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "hohoho"
+theme = "hugo-xmin"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+footnotereturnlinkcontents = "↩"
+hasCJKLanguage = true
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 3
+[params]
+    description = "A website built through Hugo and blogdown."
+    
+    footer = "&copy; [plurk](https://www.plurk.com/deadfate_) | [Github](https://github.com/deadfate-sky) | [Twitter](https://twitter.com/_deadfate)"
+    
+    highlightjsVersion = "9.15.10"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r"]
+    highlightjsTheme = "github"
+    
