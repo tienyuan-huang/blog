@@ -1,0 +1,9 @@
+---
+title: 幹
+author: deadfate
+date: '2020-01-20'
+slug: zz
+categories: []
+tags: []
+---
+zzzzzzz
