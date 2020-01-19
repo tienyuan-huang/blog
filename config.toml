@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://deadfate.netlify.com/"
 languageCode = "en-us"
 title = "hohoho"
 theme = "hugo-xmin"
