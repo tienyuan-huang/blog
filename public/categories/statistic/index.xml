@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>statistic on hohoho</title>
+    <link>/categories/statistic/</link>
+    <description>Recent content in statistic on hohoho</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/statistic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>這個blog怎麼弄出來的</title>
+      <link>/2020/01/21/build-this-blog/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/21/build-this-blog/</guid>
+      <description>其實在 about這邊就有提過，不過我還是把製作方式打得更清楚一點。 我主要是用blogdown這個套件建一個blog，然後再git到githu</description>
+    </item>
+    
+  </channel>
+</rss>

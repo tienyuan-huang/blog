@@ -1,0 +1,16 @@
+---
+title: 這個blog怎麼弄出來的
+author: deadfate
+date: '2020-01-21'
+slug: build this blog
+categories:
+  - statistic
+tags: []
+---
+其實在 [about](https://deadfate.netlify.com/about/)這邊就有提過，不過我還是把製作方式打得更清楚一點。  
+
+我主要是用```blogdown```這個套件建一個blog，然後再git到github上，最後用 [netlify](https://app.netlify.com/)部署(deploy)。雖然有書可以照抄，但每個人會遇到的問題其實很變異，所以還參考了很多網路上的教學文。雖然照著 [謝益輝大佬](https://bookdown.org/yihui/blogdown/)的這本書不一定能夠完全照抄（畢竟每個人的電腦狀況、R跟Rstudio的版本都不一樣），但書裡面提及的很多背景知識，不管對架blog或網頁知識，都很有幫助。例如```TOML```語法，html、css這些網頁相關的背景知識等。  
+
+Rstudio跟github如何接上，也是有參考很多網路文章，像 [這個](https://scgeeker.github.io/Reproducible-Think/2_init/Project.html)、 [這個](https://shihs.github.io/blog/r/git/2018/09/08/R-Git-%E5%A6%82%E4%BD%95%E9%80%A3%E6%8E%A5Rstudio%E8%88%87githu/)，跟創世神Hadley Wickman在 [R package](https://r-pkgs.org/)這本書的 [一部分](https://r-pkgs.org/git.html)。  
+
+對了，github也能把```Rmarkdown```生成的html檔案，用gh-pages部署唷，網路上可以找到一些相關作法。
