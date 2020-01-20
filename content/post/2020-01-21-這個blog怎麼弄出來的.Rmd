@@ -13,4 +13,9 @@ tags: []
 
 Rstudio跟github如何接上，也是有參考很多網路文章，像 [這個](https://scgeeker.github.io/Reproducible-Think/2_init/Project.html)、 [這個](https://shihs.github.io/blog/r/git/2018/09/08/R-Git-%E5%A6%82%E4%BD%95%E9%80%A3%E6%8E%A5Rstudio%E8%88%87githu/)，跟創世神Hadley Wickman在 [R package](https://r-pkgs.org/)這本書的 [一部分](https://r-pkgs.org/git.html)。  
 
-對了，github也能把```Rmarkdown```生成的html檔案，用gh-pages部署唷，網路上可以找到一些相關作法。
+對了，github也能把```Rmarkdown```生成的html檔案，用gh-pages部署唷，網路上可以找到一些相關作法。  
+
+有機會再列一些未來主題方向，不過目前先 [重量不重質](https://yihui.org/cn/2018/02/ninety-posts/)，沒錯，  
+> 我曾经说对普通人来说，如果一件事不能靠质量取胜的话，那么不妨靠数量硬撑，因为数量相对容易一些。  
+
+又是謝益輝大老的文章跟想法。
