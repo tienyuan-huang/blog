@@ -1,5 +1,6 @@
 body {
-  font-family: Optima, Candara, Calibri, Arial, sans-serif;
+  font-family: 'Noto Serif TC',Optima, Candara, Calibri, Arial, sans-serif;
+  line-height:1.6;
 }
 code {
   font-family: "Lucida Console", Monaco, monospace;
