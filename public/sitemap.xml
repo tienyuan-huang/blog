@@ -3,22 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/%E6%83%B3%E6%B3%95/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/%E6%83%B3%E6%B3%95/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/01/23/study/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2020/01/21/seishun-buta-yaro/</loc>
     <lastmod>2020-01-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/acg/</loc>
-    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
     <lastmod>2020-01-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,6 +53,21 @@
   </url>
   
   <url>
+    <loc>/tags/%E5%8B%95%E7%95%AB/</loc>
+    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/%E5%8F%B0%E8%BC%95/</loc>
+    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/%E6%97%A5%E8%BC%95/</loc>
+    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2020/01/21/build-this-blog/</loc>
     <lastmod>2020-01-21T00:00:00+00:00</lastmod>
   </url>
@@ -43,7 +78,7 @@
   </url>
   
   <url>
-    <loc>/categories/%E6%83%B3%E6%B3%95/</loc>
+    <loc>/tags/%E6%96%87%E5%AD%B8/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,11 +98,22 @@
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>/categories/todo/</loc>
+    <lastmod>1947-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/todo/todo/</loc>
+    <lastmod>1947-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/todo/</loc>
+    <lastmod>1947-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
   </url>
   
 </urlset>

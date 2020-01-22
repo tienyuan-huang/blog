@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>想法 on hohoho</title>
-    <link>/categories/%E6%83%B3%E6%B3%95/</link>
+    <link>/tags/%E6%83%B3%E6%B3%95/</link>
     <description>Recent content in 想法 on hohoho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/%E6%83%B3%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/%E6%83%B3%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -27,15 +27,6 @@
       
       <guid>/2020/01/20/chinese-literature/</guid>
       <description>原始日期：2019/5/19 想討論一下敝校中文系。雖然我有遇到雷的課，但其實我們學校中文系的課還算多元。大部分的老師是中文博士沒錯，但都會開</description>
-    </item>
-    
-    <item>
-      <title>本科需要的能力</title>
-      <link>/2020/01/20/ability/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/2020/01/20/ability/</guid>
-      <description>這篇文章是從plurk救出來的..時間是2019/4/20。 關於前一篇文提到，即使在自己想要的科系，有些這個科系需要的基本能力，我還是得自己</description>
     </item>
     
   </channel>
