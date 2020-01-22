@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/categories/baseball/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url>
@@ -13,17 +18,27 @@
   </url>
   
   <url>
+    <loc>/2020/01/23/spinrate/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
     <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/%E6%83%B3%E6%B3%95/</loc>
+    <loc>/tags/%E4%B9%BE%E8%B2%A8/</loc>
     <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/%E6%83%B3%E6%B3%95/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/%E6%83%B3%E6%B3%95/</loc>
     <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url>
   
