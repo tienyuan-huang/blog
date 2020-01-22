@@ -23,6 +23,14 @@ hasCJKLanguage = true
     name = "Categories"
     url = "/categories/"
     weight = 3
+[[menu.main]]
+    name = "Tags"
+    url = "/Tags/"
+    weight = 4
+[[menu.main]]
+    name = "todo"
+    url = "/todo/"
+    weight = 5
 [params]
     description = "A website built through Hugo and blogdown."
     
