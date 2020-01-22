@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/categories/acg/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/baseball/</loc>
     <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url>
@@ -33,12 +38,12 @@
   </url>
   
   <url>
-    <loc>/categories/%E6%83%B3%E6%B3%95/</loc>
+    <loc>/tags/%E6%83%B3%E6%B3%95/</loc>
     <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/%E6%83%B3%E6%B3%95/</loc>
+    <loc>/categories/%E6%83%B3%E6%B3%95/</loc>
     <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -48,12 +53,17 @@
   </url>
   
   <url>
-    <loc>/2020/01/21/seishun-buta-yaro/</loc>
-    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
+    <loc>/2020/01/23/to-dream-or-not-to-dream/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/acg/</loc>
+    <loc>/tags/%E9%9B%BB%E7%AB%B6%E5%AF%A6%E6%B3%81/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/01/21/seishun-buta-yaro/</loc>
     <lastmod>2020-01-21T00:00:00+00:00</lastmod>
   </url>
   
