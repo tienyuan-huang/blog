@@ -17,4 +17,9 @@ tags:
 
 想想還是覺得，唉，我還是早日成為一個稱職的乾爹，這才是讓大環境變好的選擇，也才能回報這些填滿我社交需求的實況主。剛好今天在看 [宅知道藥頭](https://www.youtube.com/channel/UCaxwHYnDshwKi9LBz20uGGw)的影片時，留言看到一個很有趣的詞—「寂寞經濟」，真的爆幹貼切。  
 
-理想很豐滿，現實很骨感。人人都想當生產者，那誰來負責消費呢？
+理想很豐滿，現實很骨感。人人都想當生產者，那誰來負責消費呢？  
+
+[其實這是舊文重提啦](https://www.plurk.com/p/nlm4sw)。太難過了，放張圖吧  
+放個哏圖。
+```{r fig.cap='我就爛阿', out.width = "50%", fig.align = "left",echo=FALSE}
+knitr::include_graphics('https://images.plurk.com/40ct0bislHOeDb49vXLLXz.jpg')
