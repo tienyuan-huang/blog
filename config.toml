@@ -34,7 +34,7 @@ hasCJKLanguage = true
 [params]
     description = "A website built through Hugo and blogdown."
     
-    footer = "&copy; [plurk](https://www.plurk.com/deadfate_) | [Github](https://github.com/deadfate-sky) | [Twitter](https://twitter.com/_deadfate)"
+    footer = "&copy; [plurk](https://www.plurk.com/deadfate_) | [Github](https://github.com/deadfate-sky/blog) | [Twitter](https://twitter.com/_deadfate)"
     
     highlightjsVersion = "9.15.10"
     highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
