@@ -38,11 +38,6 @@
   </url>
   
   <url>
-    <loc>/tags/%E6%83%B3%E6%B3%95/</loc>
-    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/%E6%83%B3%E6%B3%95/</loc>
     <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url>
@@ -58,12 +53,22 @@
   </url>
   
   <url>
+    <loc>/tags/%E9%9A%A8%E7%AD%86/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/%E9%9B%BB%E7%AB%B6%E5%AF%A6%E6%B3%81/</loc>
     <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/2020/01/21/seishun-buta-yaro/</loc>
+    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
     <lastmod>2020-01-21T00:00:00+00:00</lastmod>
   </url>
   

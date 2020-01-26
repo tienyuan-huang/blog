@@ -9,6 +9,17 @@
 {{ .Content }}
 </main>
 
+<p class="terms">
+  {{ range $i := (slice "categories" "tags") }}
+  {{ with ($.Param $i) }}
+  {{ $i | title }}:
+  {{ range $k := . }}
+  <a href='{{ relURL (print "/" $i "/" $k | urlize) }}'>{{$k}}</a>
+  {{ end }}
+  {{ end }}
+  {{ end }}
+</p>
+
 <div class="article-container">
   {{partial "disqus.html"}}
 </div>

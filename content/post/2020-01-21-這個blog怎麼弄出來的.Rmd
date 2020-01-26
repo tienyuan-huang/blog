@@ -5,7 +5,9 @@ date: '2020-01-21'
 slug: build this blog
 categories:
   - statistic
-tags: []
+tags: 
+  - R
+  - 乾貨
 ---
 其實在 [about](https://deadfate.netlify.com/about/)這邊就有提過，不過我還是把製作方式打得更清楚一點。  
 
