@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>認真 on hohoho</title>
+    <link>/tags/%E8%AA%8D%E7%9C%9F/</link>
+    <description>Recent content in 認真 on hohoho</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/%E8%AA%8D%E7%9C%9F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>沈伯洋老師 資訊戰然後呢  </title>
+      <link>/2020/01/31/information-warfare/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/31/information-warfare/</guid>
+      <description>這篇想分享一下沃草X沈伯洋 這系列影片，非常清楚地介紹了資訊戰的定位、作法，以其如何防範。其實資訊戰最主要的目的就是讓一個國家「亂」，他也不需</description>
+    </item>
+    
+  </channel>
+</rss>
