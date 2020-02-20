@@ -4,36 +4,46 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2020-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/%E4%B9%BE%E8%B2%A8/</loc>
-    <lastmod>2020-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/02/20/how-to-write-well/</loc>
+    <lastmod>2020-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/%E6%83%B3%E6%B3%95/</loc>
-    <lastmod>2020-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2020/01/31/information-warfare/</loc>
-    <lastmod>2020-01-31T00:00:00+00:00</lastmod>
+    <loc>/tags/%E6%96%87%E5%AD%B8/</loc>
+    <lastmod>2020-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/%E8%AA%8D%E7%9C%9F/</loc>
+    <lastmod>2020-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/01/31/information-warfare/</loc>
     <lastmod>2020-01-31T00:00:00+00:00</lastmod>
   </url>
   
@@ -119,11 +129,6 @@
   
   <url>
     <loc>/2020/01/20/chinese-literature/</loc>
-    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/%E6%96%87%E5%AD%B8/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url>
   
