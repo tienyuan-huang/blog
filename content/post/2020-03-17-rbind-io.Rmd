@@ -1,0 +1,15 @@
+---
+title: rbind io
+author: deadfate
+date: '2020-03-17'
+slug: rbind-io-domain-name
+categories:
+  - random
+tags:
+  - 隨筆
+---
+[因為換了域名](https://support.rbind.io/about/) ，所以發個文章測試一下。如果是用```blogdown```架設blog，也可以跟rbind申請域名唷。不過把網址重新導向https花了一點時間就是...。
+
+
+
+
