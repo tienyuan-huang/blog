@@ -10,6 +10,6 @@ tags:
 ---
 [因為換了域名](https://support.rbind.io/about/) ，所以發個文章測試一下。如果是用```blogdown```架設blog，也可以跟rbind申請域名唷。不過把網址重新導向https花了一點時間就是...。
 
-
+喔喔喔，再順便說一下，我本來的netlify架站方式，是直接連本地（就是我自己電腦）的```public/```資料夾一起上傳，然後再讓netlify去讀取這個資料夾。這個方法跟yihui的[blogdown說明書](https://bookdown.org/yihui/blogdown/) 上面的方式不太一下，說明書上是把「除了」public的其他資料夾都上傳github，再讓netlify讀取你在github上傳的內容，並用hugo生成網站。下午試了一下，好像是當初netlify在用hugo生成的那邊沒弄好，可能hugo版本打錯了，還是我根本沒選要用hugo之類的。總之今天試了之後就可以了，真是可喜可賀。
 
 
