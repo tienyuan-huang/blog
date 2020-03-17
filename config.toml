@@ -1,6 +1,6 @@
 baseurl = "https://deadfate.rbind.io/"
 languageCode = "en-us"
-title = "hohoho"
+title = "算是紀錄一下"
 theme = "hugo-xmin"
 googleAnalytics = "UA-156464110-1"
 disqusShortname = "deadfate"
