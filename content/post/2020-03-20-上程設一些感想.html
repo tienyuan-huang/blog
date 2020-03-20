@@ -16,42 +16,7 @@ tags:
 <div id="第一次的作業" class="section level2">
 <h2>第一次的作業</h2>
 <p>這份作業是要求輸入n，就畫出一個以n為半徑，用<code>*</code>畫出來的圓。</p>
-<pre><code>
-#include&lt;stdio.h&gt;
-int main()
-{
-    int n;
-
-    printf(&quot;Enter number of r:\n&quot;);
-    scanf(&quot;%d&quot;,&amp;n);
-
-    //宣告？呼叫？但總之l會用到，就也先指定一下l是啥
-    //l就是半徑
-    int l = 2 * n-1;
-
-    for(int r=1; r&lt;=l; r++)
-    {
-        for(int c=1; c&lt;=l; c++)
-        {
-
-            // Print circle
-            if((r - n) * (r - n) + (c - n) * (c - n) &lt;= (n - 1) * (n - 1))
-            {
-                printf(&quot;*&quot;);
-            }
-            
-            else
-            {
-                printf(&quot; &quot;);
-            }
-        }
-
-    printf(&quot;\n&quot;);
-    }
-
-    return 0;
-}
-</code></pre>
+<script src="https://gist.github.com/deadfate-sky/c4421bd6950950043bd80ae36a337a75.js"></script>
 <p>總的來說這份作業其實沒有很難，我不知道當初為什麼糾結了那麼久。</p>
 <p>我就把這份code一步一步拆解好了，看我能不能夠講清楚我做了啥事。</p>
 <pre><code>#include&lt;stdio.h&gt;

@@ -13,44 +13,8 @@ tags:
 
 ## 第一次的作業  
 這份作業是要求輸入n，就畫出一個以n為半徑，用```*```畫出來的圓。  
-```
 
-#include<stdio.h>
-int main()
-{
-    int n;
-
-    printf("Enter number of r:\n");
-    scanf("%d",&n);
-
-    //宣告？呼叫？但總之l會用到，就也先指定一下l是啥
-    //l就是半徑
-    int l = 2 * n-1;
-
-    for(int r=1; r<=l; r++)
-    {
-        for(int c=1; c<=l; c++)
-        {
-
-            // Print circle
-            if((r - n) * (r - n) + (c - n) * (c - n) <= (n - 1) * (n - 1))
-            {
-                printf("*");
-            }
-            
-            else
-            {
-                printf(" ");
-            }
-        }
-
-    printf("\n");
-    }
-
-    return 0;
-}
-
-```  
+<script src="https://gist.github.com/deadfate-sky/c4421bd6950950043bd80ae36a337a75.js"></script>  
 
 總的來說這份作業其實沒有很難，我不知道當初為什麼糾結了那麼久。  
 
