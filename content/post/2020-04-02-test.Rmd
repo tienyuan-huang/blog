@@ -1,0 +1,20 @@
+---
+title: test
+author: deadfate
+date: '2020-04-02'
+slug: test
+categories: []
+tags: []
+---
+```{r}
+data(mtcars)
+plot(mtcars$mpg)
+
+for (i in c(1:10)){
+  print(rnorm(10))
+}
+```
+
+更色金必出光解發一有它國歷花產我念母世也，自日在陽？已就發特要單……量已種此外配你總是克有商二說吃計大呢方心物叫，醫她可查研的指球石不，設臺學第代不，外如一得神色四，一運我談！
+
+的指轉生業供，音張科。
