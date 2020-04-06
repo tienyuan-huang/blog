@@ -1,6 +1,7 @@
 body {
   font-family: 'Noto Serif TC',Optima, Candara, Calibri, Arial, sans-serif;
   line-height:1.6;
+  unicode-range: U+4E00-9FFF;
 }
 code {
   font-family: "Lucida Console", Monaco, monospace;
