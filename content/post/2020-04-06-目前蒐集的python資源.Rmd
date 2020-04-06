@@ -1,0 +1,56 @@
+---
+title: 目前蒐集的python資源
+author: deadfate
+date: '2020-04-06'
+slug: resource of python
+categories:
+  - statistic
+  - programming
+tags:
+  - python
+---
+因為找到一些不錯的入門書，紀錄一下    
+如果要看```R```跟data viz，可以看[另一篇乾貨文](https://hackmd.io/@deadfate/rJ1Ix9nLU/https%3A%2F%2Fhackmd.io%2F%40deadfate%2FHk0SPGpXL)，但主要是```R```跟資料視覺化的。    
+
+## 入門  
+
+* A Whirlwind Tour of Python  
+https://jakevdp.github.io/WhirlwindTourOfPython/
+
+順便把其他初學相關的放一放好了
+* 官方文檔
+<https://docs.python.org/3/tutorial/index.html>  
+
+* Michigan的網課    
+https://www.py4e.com/   
+https://www.py4e.com/html3/
+
+* 自動    
+https://automatetheboringstuff.com/
+    - 這是介    
+https://youtu.be/aFfDDdAPCbA
+    - 作者本人帶你看書    
+https://www.youtube.com/playlist?list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW    
+
+這些都是比較基本、純粹在講python本身的書，比較不像其他書是主打data science，一下子就要用```Numpy```、```Pandas```這些library來支援  
+
+我目前是參考這個影片－<https://youtu.be/eTxyviU0Ddo>的菜單進行。這個頻道還滿不錯的，會討論一些關於資料科學跟python的問題跟影片。    
+
+## machine learning     
+因為之前有幸修了管院ML的相關課程，所以也順便把python相關的資源蒐集起來。其實多半都照個上面那個影片的內容啦。  
+
+* [Python Programming for Quantitative Economics](https://python-programming.quantecon.org/index_toc.html)     
+上面的影片推薦，是看"Introduction to Python"跟"The Scientific Libraries"這兩節，還有後面講到pandas的那節。這些部份是跟一般用python做資料科學部分會比較相關的。  
+
+* [PythonDataScienceHandbook](https://jakevdp.github.io/PythonDataScienceHandbook/)    
+這本跟入門那邊那本 [Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/) 是同個作者，只是一個面向基礎，這本面向資料科學。這本書提了```Numpy、Pandas```這兩個資料科學的包，還有用了視覺化的```Matplotlib```，跟做機器學習的```Scikit-Learn```。
+
+* [Python for Data Analysis](http://shop.oreilly.com/product/0636920050896.do)     
+定位跟上面那本類似，主要講一些資料科學的套件，差在沒有```Scikit-Learn```。  
+* [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](http://shop.oreilly.com/product/0636920142874.do)     
+看名字就知道，主要是講機器學習跟深度學習的包。除了```Scikit-Learn```，還有很有名的```Keras、TensorFlow```。雖然好像又有其他更紅的框架了，不過我這種小白萌新還是按部就班吧。  
+
+* Scikit-Learn官方文檔    
+https://scikit-learn.org/stable/tutorial/basic/tutorial.html#  
+
+還有這篇ML入門教學文：     [如何用3个月零基础入门「机器学习」？](https://zhuanlan.zhihu.com/p/29704017)

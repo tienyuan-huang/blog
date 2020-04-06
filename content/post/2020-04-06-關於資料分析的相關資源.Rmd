@@ -1,0 +1,71 @@
+---
+title: 關於資料分析的相關資源
+author: deadfate
+date: '2020-04-06'
+slug: the resource about data analysis
+categories:
+  - statistic
+tags:
+  - R
+  - 乾貨
+---
+由於我的統計學是在學校上的，所以就不推薦相關資源的。 [可汗學院](https://www.khanacademy.org/math/statistics-probability)的課程可以參考看看，coursera上應該也有不少```R```跟統計學相關的課程，都可以嘗試看看。畢竟如果只是基本的資料分析，並不需要到太艱難的統計學。  
+
+## R language  
+
+* [R for Data Science](https://r4ds.had.co.nz/)  
+說到要學```R```語言跟資料分析、資料處理的話，我一定首推 [R for Data Science](https://r4ds.had.co.nz/)這本書。本書作者是 [Hadley Wickman](http://hadley.nz/)跟Garrett Grolemund。如果說要學R語言的話，一定會用到Hadley Wickham寫的各種套件(package)，例如```ggplot2```、```dplyr```等。某種程度上，可以說Hadley Wickham改變了整個R的生態圈也不為過。  <br>
+這本書就是寫給新手入門的，所以我覺得如果對統計、資料分析、視覺話有興趣的人，照著章節一路看下去就可以了。這本書在台灣也有出中譯本。    
+
+* [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)  
+* [Blogdown](https://bookdown.org/yihui/blogdown/)  
+
+關於Rmarkdown的應用大全。用Rstudio+Rmd，舉凡生成網頁，製作電子書，架設blogdown，用css語法設計生成pdf檔案，通通都可以舒適完成。算是讓Rstudio跟Jupyter有一拚之力的最大底氣。  <br>
+附上其他rmd相關資源， [bookdown](https://bookdown.org/yihui/bookdown/)、 [pagedown](https://pagedown.rbind.io/)  
+
+* [Advanced R](https://adv-r.hadley.nz/)  
+一半人如果第一個摸的語言是R或python，應該都是以資料分析為主。通常如果目的是資料分析，其實只要學會使用現成的套件，跟清理資料，其實就差不多了。  <br>
+但也正因為這個目的，讓大部分的R使用者，對R的了解深度，僅限於「可以用code來取代excel」。而R作為程式語言，還是有其作為程式的特性，比如如果跟電腦的硬體、記憶體互動，更深入的資料結構是如何，怎麼樣可以讓code運行的更有效率，這些部分比較需要基本的電腦科學知識，而Hadley Wickham就是透過這本書，從一個比較電腦科學的視角看待R。  
+
+
+## 機器學習(machine learning)  
+
+* [ISLR](http://faculty.marshall.usc.edu/gareth-james/ISL/ )  
+這本書基本上就是機器學習的入門必看，書中的示範跟例題是用R來實現。我覺得這本書對機器學習的基本架構跟眾多概念，講得非常清楚，如果已經有統計分析的基本知識，透過這本書，可以比較輕鬆的銜接進機器學習的領域，相當適合作為入門書。  <br>
+去yt餵書名就會有網路課程可以看。  <br>
+而這本書的作者們，還有另一本更深入的機器學習聖經， [The Elements of
+Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)，如果要深入機器學習領域，就會接續看這本聖經。  <br>
+如果以馬克思主義為例，ISLR是共產黨宣言，而ESL就是資本論LUL。  
+
+* [google ML](https://developers.google.com/machine-learning/crash-course/ml-intro)  <br>
+google的ML課程大全，雖然我看得並不多，但也可以參考。除了這兩個推薦資源外，網路上還有非常多知名的機器學習資源，所以就不一一介紹了，例如吳恩達的課程。  <br>
+再補充個入門文章： [如何用3个月零基础入门「机器学习」？](https://zhuanlan.zhihu.com/p/29704017)
+
+## 資料視覺化(data visualization, data viz)  
+* [ggplot2](https://ggplot2-book.org/)  
+ 太有名了，應該不需要再多一個我來介紹。Hadley Wickham就是因為開發了這個繪圖套件，讓他成為近年R語言社群最重量級的人物（或是偶像）。  
+
+* [Storytelling with data](http://www.storytellingwithdata.com/)  
+除了這個blog之外，作者也有出一本很有名的書 [storytelling with data中文版](https://www.books.com.tw/products/0010710103),因為中文書名翻太爛，我就照貼英文書名。這本書是一本資料視覺化的指南，基本上照著這本書，就能大致掌握資料視覺化的基本概念。當然，想做出實用的統計圖表，還是需要多學習別人的圖跟練習。  <br>
+作者也有製作podcast，相關字餵狗就有了。
+
+* [Practical R for Mass Communication and Journalism (1 edition)](https://psmethods.postach.io/link/yi-ben-rde-xin-shu-why-sharon-machlis-wrote-a-book-on-r-for-journalists-storybench)  
+連結有簡單介紹。  
+
+## 不錯的podcast推薦
+* [PolicyViz](https://policyviz.com/product/core-principles-of-data-visualization-cheatsheet/)  
+* [Data Viz Today](https://dataviztoday.com/)  
+
+這兩個都是很不錯聽的podcast。用google podcast就找得到了。  
+
+* [Linear Digressions](http://lineardigressions.com/)  
+討論Data Science, 機器學習，深度學習。
+
+* [Not So Standard Deviations](http://nssdeviations.com)  
+討論R跟資料科學，兩個主持人一個是約翰霍普金斯的教授，另一個職業資料科學家。  
+
+* [謝益輝blog](https://yihui.org/)  
+益輝大佬的個人網站跟blog，中英文都有，寫的文章跟開發者故事非常有意思。  
+
+
+當然，除了以上這些簡單推薦，還有一大堆實用的資源、網站、論壇、blog跟書籍，甚至是大神或公司的推特，都很值得追蹤，像是Rstudio跟Hadley Wickham的推特。這些就請自己蒐集跟挑選了。這篇文章會隨著我的前進不斷更新，有空可以回來回顧。
