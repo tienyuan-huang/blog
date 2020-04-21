@@ -1,0 +1,50 @@
+---
+title: jupyter擴充功能
+author: deadfate
+date: '2020-04-21'
+slug: jupyter extension
+categories:
+  - statistic
+  - 想法
+tags:
+  - python
+  - R
+---
+
+因為最近有在學python，所以各式各樣的IDE都試了一輪，從anaconda、pycharm、比較不紅的winpython，甚至還是試過想找可以連到 [WSL](https://docs.microsoft.com/zh-tw/windows/wsl/about)的IDE，用linux系統，最後還是回到用miniconda來管理環境跟下載套件。摸索了一下jupyter的使用，所以把目前發現的、但繁體中文資訊不多的東西記錄下來。  
+
+還是先簡單介紹一下， [jupyter](https://jupyter.org/documentation)是以 [Ipython](https://ipython.org/)作為cell的核心的...互動式介面？如果有使用過R的 [Rmarkdown](https://rmarkdown.rstudio.com/)的話，應該還滿能理解我在說什麼。   
+
+那基本功能就不提了，這篇文章主要是想介紹一下jupyter的外掛（Jupyter Notebook Extensions）。會想提是因為我在找一般介紹anaconda、python、jupyter這個套餐時，大部分都沒有提到jupyter notebook有外掛這回事，害我以為他的功能就只是互動式文件。殊不知靠著社群貢獻的外掛，其實autocomplete、暗色主題都可以親易完成。下面就介紹這兩種功能吧。  
+
+先放一下jupyter外掛的github：<https://github.com/ipython-contrib/jupyter_contrib_nbextensions>  
+
+## Hinterland 自動補完  
+先放 [教學文](https://www.fairyhorn.cc/3490/jupyter-notebook-hinterland)。其實我本來以為jupyter nb只有按tab跳出提示code的這個功能，不過沒想到裝個extension就可以做到了，真的非常方便。  
+
+說明文檔網頁：<https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/hinterland/README.html>
+
+## jupyter-themes  
+<https://github.com/dunovank/jupyter-themes>
+看名字就知道，可以調整jupyter的背景主題。使用說明其實也講的滿清楚，裝一下顏色就可以改變了，我原本也以為沒辦法設定自己喜歡的樣式...原來可以。  
+
+要注意的是，變更背景樣式之後，字體、工具列之類的東西也都會重設，要記得看一下github的說明，像是Code Font-Size, Output Area Fontsize, Toolbar Visible這些東西都可以調，我也都有調成自己喜歡的樣式，不然我用了oceans16這個主題之後，output的字真的有夠小的。記得要調！  
+
+## 閒聊
+介紹大致就到這邊啦。趁著難得發文，再多碎念幾句。其實R跟python之爭一直是不敗的話題，Rmarkdown的作者謝益輝也有在他的部落格發過幾篇文[^1] [^2]。只能說語言戰爭就跟動漫的宗教戰爭一樣，絕對是怎麼吵都不會有結果的。  
+
+雖然我還沒找到相關工作，不過在台灣python社群還是比較大一點，在產業領域python也比較吃香。「dataframe vs. pandas」或是「python在機系學習、AI領域得到的支援比較多」這些基本討論點我就不多著墨了，網路上中文或英文世界都有夠多的資訊跟討論，知乎、reddit跟stack overflow隨便找都有一大堆。  
+
+我只想提一點，痾，不是提老母。  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LwxHqX0-gIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+
+除了老母之外，其實台灣R社群的討論真的少到不行。國外的R、python的社群比例，並沒有像台灣差距的那麼懸殊，R在機器學習或是其他領域的套件支援，也沒有那麼不堪，useR跟rstudio::conf這兩個論壇也都弄得相當盛大。舉個例子，年初R社群最大的事情，估計就是Hadley wickham的傑作```dplyr```要發行1.0.0完整版（正式版？）了，就是要把大部分的功能都確定下來的意思吧。基本上要做資料科學又學R的人，一開始一定會被推薦說一定要學```dplyr+ggplot2```這兩個經典套件，所以我想dplyr大改版應該就跟哪天```numpy```大改版一樣，是程式語言社群的一件大事，但在我臉書按讚的所有資訊中，只有一個社團有分享這個資訊而已。雖然這只是我的個人感受，在從這件事情就可以大致知道，國外R社群的資訊，其實只有很少一部分進到台灣。雖然說如果真的想學程式語言，自然而然就會去追蹤這些國外前沿的更新資訊，但在中文資訊的獲取難易度上，R真的比較難，中文資訊不算多。  
+
+估計這個blog日後也會陸續放一下我自己蒐集、有趣的R套件文檔，像是之前摸了data.table（最有效率的dataframe處理套件）就覺得他的思路真是有夠酷，code寫起來也非常簡潔，效率超高。  
+
+喔對了，最後再補個話題，其實說什麼想做資料科學要學code brabra，這都是外行話==，最需要的一定是SQL好嗎！基本上處理dataframe的東西，我看概念都是跟SQL抄來的，只是用不同的方式實現再各個程式語言上而已。  
+
+好啦，下回見，88
+
+[^1]:https://yihui.org/cn/2017/06/notebooks/
+[^2]:https://yihui.org/en/2018/09/notebook-war/
