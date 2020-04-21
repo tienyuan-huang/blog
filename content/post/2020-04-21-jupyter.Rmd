@@ -15,7 +15,7 @@ tags:
 
 還是先簡單介紹一下， [jupyter](https://jupyter.org/documentation)是以 [Ipython](https://ipython.org/)作為cell的核心的...互動式介面？如果有使用過R的 [Rmarkdown](https://rmarkdown.rstudio.com/)的話，應該還滿能理解我在說什麼。   
 
-那基本功能就不提了，這篇文章主要是想介紹一下jupyter的外掛（Jupyter Notebook Extensions）。會想提是因為我在找一般介紹anaconda、python、jupyter這個套餐時，大部分都沒有提到jupyter notebook有外掛這回事，害我以為他的功能就只是互動式文件。殊不知靠著社群貢獻的外掛，其實autocomplete、暗色主題都可以親易完成。下面就介紹這兩種功能吧。  
+那基本功能就不提了，這篇文章主要是想介紹一下jupyter的外掛（Jupyter Notebook Extensions）。會想提是因為我在找一般介紹anaconda、python、jupyter這個套餐時，大部分都沒有提到jupyter notebook有外掛這回事，害我以為他的功能就只是互動式文件。殊不知靠著社群貢獻的外掛，其實autocomplete、暗色主題都可以輕易完成。下面就介紹這兩種功能吧。  
 
 先放一下jupyter外掛的github：<https://github.com/ipython-contrib/jupyter_contrib_nbextensions>  
 
