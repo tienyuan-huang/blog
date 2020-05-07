@@ -6,7 +6,8 @@ slug: one
 categories: []
 tags: []
 ---
-```r Sys.time() ```
+```r Sys.time() ```  
+
 # 警告，這是一篇測試文章
 ## 可以發大財了嗎？  
 這真的只是一篇測試文章，開站測試。以下是亂數產生文章， [來自這裡](http://www.richyli.com/tool/loremipsum/)。
