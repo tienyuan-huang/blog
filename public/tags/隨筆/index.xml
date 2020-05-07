@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>隨筆 on 算是紀錄一下</title>
+    <link>/tags/%E9%9A%A8%E7%AD%86/</link>
+    <description>Recent content in 隨筆 on 算是紀錄一下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/%E9%9A%A8%E7%AD%86/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>rbind io</title>
+      <link>/2020/03/17/rbind-io-domain-name/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/03/17/rbind-io-domain-name/</guid>
+      <description>因為換了域名 ，所以發個文章測試一下。如果是用blogdown架設blog，也可以跟rbind申請域名唷。不過把網址重新導向https花了一點</description>
+    </item>
+    
+    <item>
+      <title>大佬曾經的拖延症</title>
+      <link>/2020/01/27/procrastination/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/27/procrastination/</guid>
+      <description>謝益輝大佬在他的 這篇blog提到他在職涯初期的雷貨行徑。看了一是感到安慰，二來又覺得有點難過。安慰是因為原來如此厲害之人，也是有著人性的缺點</description>
+    </item>
+    
+    <item>
+      <title>文組？理組？反正我是失敗組</title>
+      <link>/2020/01/23/study/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/23/study/</guid>
+      <description>這篇文章最一開始是發噗浪。 開頭先附上兩部還蠻讚的數學影片： 數學的版圖、 Essence of linear algebra。第二部是線性代數的基礎影片，因為有看一些統計跟機</description>
+    </item>
+    
+    <item>
+      <title>文學教育</title>
+      <link>/2020/01/20/chinese-literature/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/20/chinese-literature/</guid>
+      <description>這篇本來是跟某個朋友討論各校中文系，後來插入文學教育現況。為了維持文章的完整性，就只保留文學教育與改革的部分。 文學教育與改革 以前的「文學課程</description>
+    </item>
+    
+    <item>
+      <title>本科需要的能力</title>
+      <link>/2020/01/20/ability/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/20/ability/</guid>
+      <description>這篇文章是從plurk救出來的..時間是2019/4/20。 關於前一篇文提到，即使在自己想要的科系，有些這個科系需要的基本能力，我還是得自己</description>
+    </item>
+    
+  </channel>
+</rss>

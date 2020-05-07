@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>這個blog怎麼弄出來的 | 算是紀錄一下</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap&subset=chinese-traditional" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+<link href="//cdn.bootcss.com/highlight.js/9.18.1/styles/github.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/todo/">todo</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">這個blog怎麼弄出來的</span></h1>
+<h2 class="author">deadfate</h2>
+<h2 class="date">2020/01/21</h2>
+</div>
+
+<main>
+
+
+
+<p>其實在 <a href="https://deadfate.netlify.com/about/">about</a>這邊就有提過，不過我還是把製作方式打得更清楚一點。</p>
+<p>我主要是用<code>blogdown</code>這個套件建一個blog，然後再git到github上，最後用 <a href="https://app.netlify.com/">netlify</a>部署(deploy)。雖然有書可以照抄，但每個人會遇到的問題其實很變異，所以還參考了很多網路上的教學文。雖然照著 <a href="https://bookdown.org/yihui/blogdown/">謝益輝大佬</a>的這本書不一定能夠完全照抄（畢竟每個人的電腦狀況、R跟Rstudio的版本都不一樣），但書裡面提及的很多背景知識，不管對架blog或網頁知識，都很有幫助。例如<code>TOML</code>語法，html、css這些網頁相關的背景知識等。喔當然還有介紹 <a href="https://gohugo.io/">hugo</a>是什麼東西。</p>
+<p>Rstudio跟github如何接上，也是有參考很多網路文章，像 <a href="https://scgeeker.github.io/Reproducible-Think/2_init/Project.html">這個</a>、 <a href="https://shihs.github.io/blog/r/git/2018/09/08/R-Git-%E5%A6%82%E4%BD%95%E9%80%A3%E6%8E%A5Rstudio%E8%88%87githu/">這個</a>，跟創世神Hadley Wickman在 <a href="https://r-pkgs.org/">R package</a>這本書的 <a href="https://r-pkgs.org/git.html">一部分</a>。</p>
+<p>對了，github也能把<code>Rmarkdown</code>生成的html檔案，用gh-pages部署唷，網路上可以找到一些相關作法。</p>
+<p>有機會再列一些未來主題方向，不過目前先 <a href="https://yihui.org/cn/2018/02/ninety-posts/">重量不重質</a>，沒錯，</p>
+<blockquote>
+<p>我曾经说对普通人来说，如果一件事不能靠质量取胜的话，那么不妨靠数量硬撑，因为数量相对容易一些。</p>
+</blockquote>
+<p>又是謝益輝大老的文章跟想法。</p>
+
+</main>
+
+<p class="terms">
+  
+  
+  Categories:
+  
+  <a href='/categories/statistic'>statistic</a>
+  
+  
+  
+  
+  Tags:
+  
+  <a href='/tags/r'>R</a>
+  
+  <a href='/tags/%E4%B9%BE%E8%B2%A8'>乾貨</a>
+  
+  
+  
+</p>
+ <div class="article-container">
+  <div id="disqus_thread"></div>
+<script>
+
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://deadfate.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+</div>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  <script src="//cdn.bootcss.com/highlight.js/9.18.1/highlight.min.js"></script>
+  <script src="//cdn.bootcss.com/highlight.js/9.18.1/languages/r.min.js"></script>
+  <script src="//cdn.bootcss.com/highlight.js/9.18.1/languages/python.min.js"></script>
+  <script src="//cdn.bootcss.com/highlight.js/9.18.1/languages/yaml.min.js"></script>
+  <script>
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  </script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156464110-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-156464110-1');
+  </script>
+  
+  <hr/>
+  © <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW">本站採用CC4.0授權</a> | <a href="https://github.com/deadfate-sky">Github</a>
+  
+  </footer>
+  </body>
+</html>
+

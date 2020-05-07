@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jupyter擴充功能 | 算是紀錄一下</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap&subset=chinese-traditional" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+<link href="//cdn.bootcss.com/highlight.js/9.18.1/styles/github.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/todo/">todo</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">jupyter擴充功能</span></h1>
+<h2 class="author">deadfate</h2>
+<h2 class="date">2020/04/21</h2>
+</div>
+
+<main>
+
+
+
+<p>因為最近有在學python，所以各式各樣的IDE都試了一輪，從anaconda、pycharm、比較不紅的winpython，甚至還是試過想找可以連到 <a href="https://docs.microsoft.com/zh-tw/windows/wsl/about">WSL</a>的IDE，用linux系統，最後還是回到用miniconda來管理環境跟下載套件。摸索了一下jupyter的使用，所以把目前發現的、但繁體中文資訊不多的東西記錄下來。</p>
+<p>還是先簡單介紹一下， <a href="https://jupyter.org/documentation">jupyter</a>是以 <a href="https://ipython.org/">Ipython</a>作為cell的核心的…互動式介面？如果有使用過R的 <a href="https://rmarkdown.rstudio.com/">Rmarkdown</a>的話，應該還滿能理解我在說什麼。</p>
+<p>那基本功能就不提了，這篇文章主要是想介紹一下jupyter的外掛（Jupyter Notebook Extensions）。會想提是因為我在找一般介紹anaconda、python、jupyter這個套餐時，大部分都沒有提到jupyter notebook有外掛這回事，害我以為他的功能就只是互動式文件。殊不知靠著社群貢獻的外掛，其實autocomplete、暗色主題都可以輕易完成。下面就介紹這兩種功能吧。</p>
+<p>先放一下jupyter外掛的github：<a href="https://github.com/ipython-contrib/jupyter_contrib_nbextensions" class="uri">https://github.com/ipython-contrib/jupyter_contrib_nbextensions</a></p>
+<div id="hinterland-自動補完" class="section level2">
+<h2>Hinterland 自動補完</h2>
+<p>先放 <a href="https://www.fairyhorn.cc/3490/jupyter-notebook-hinterland">教學文</a>。其實我本來以為jupyter nb只有按tab跳出提示code的這個功能，不過沒想到裝個extension就可以做到了，真的非常方便。</p>
+<p>說明文檔網頁：<a href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/hinterland/README.html" class="uri">https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/hinterland/README.html</a></p>
+</div>
+<div id="jupyter-themes" class="section level2">
+<h2>jupyter-themes</h2>
+<p><a href="https://github.com/dunovank/jupyter-themes" class="uri">https://github.com/dunovank/jupyter-themes</a>
+看名字就知道，可以調整jupyter的背景主題。使用說明其實也講的滿清楚，裝一下顏色就可以改變了，我原本也以為沒辦法設定自己喜歡的樣式…原來可以。</p>
+<p>要注意的是，變更背景樣式之後，字體、工具列之類的東西也都會重設，要記得看一下github的說明，像是Code Font-Size, Output Area Fontsize, Toolbar Visible這些東西都可以調，我也都有調成自己喜歡的樣式，不然我用了oceans16這個主題之後，output的字真的有夠小的。記得要調！</p>
+</div>
+<div id="閒聊" class="section level2">
+<h2>閒聊</h2>
+<p>介紹大致就到這邊啦。趁著難得發文，再多碎念幾句。其實R跟python之爭一直是不敗的話題，Rmarkdown的作者謝益輝也有在他的部落格發過幾篇文<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>。只能說語言戰爭就跟動漫的宗教戰爭一樣，絕對是怎麼吵都不會有結果的。</p>
+<p>雖然我還沒找到相關工作，不過在台灣python社群還是比較大一點，在產業領域python也比較吃香。「dataframe vs. pandas」或是「python在機系學習、AI領域得到的支援比較多」這些基本討論點我就不多著墨了，網路上中文或英文世界都有夠多的資訊跟討論，知乎、reddit跟stack overflow隨便找都有一大堆。</p>
+<p>我只想提一點，痾，不是提老母。<br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LwxHqX0-gIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>除了老母之外，其實台灣R社群的討論真的少到不行。國外的R、python的社群比例，並沒有像台灣差距的那麼懸殊，R在機器學習或是其他領域的套件支援，也沒有那麼不堪，useR跟rstudio::conf這兩個論壇也都弄得相當盛大。舉個例子，年初R社群最大的事情，估計就是Hadley wickham的傑作<code>dplyr</code>要發行1.0.0完整版（正式版？）了，就是要把大部分的功能都確定下來的意思吧。基本上要做資料科學又學R的人，一開始一定會被推薦說一定要學<code>dplyr+ggplot2</code>這兩個經典套件，所以我想dplyr大改版應該就跟哪天<code>numpy</code>大改版一樣，是程式語言社群的一件大事，但在我臉書按讚的所有資訊中，只有一個社團有分享這個資訊而已。雖然這只是我的個人感受，在從這件事情就可以大致知道，國外R社群的資訊，其實只有很少一部分進到台灣。雖然說如果真的想學程式語言，自然而然就會去追蹤這些國外前沿的更新資訊，但在中文資訊的獲取難易度上，R真的比較難，中文資訊不算多。</p>
+<p>估計這個blog日後也會陸續放一下我自己蒐集、有趣的R套件文檔，像是之前摸了data.table（最有效率的dataframe處理套件）就覺得他的思路真是有夠酷，code寫起來也非常簡潔，效率超高。</p>
+<p>喔對了，最後再補個話題，其實說什麼想做資料科學要學code brabra，這都是外行話==，最需要的一定是SQL好嗎！基本上處理dataframe的東西，我看概念都是跟SQL抄來的，只是用不同的方式實現再各個程式語言上而已。</p>
+<p>好啦，下回見，88</p>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="https://yihui.org/cn/2017/06/notebooks/" class="uri">https://yihui.org/cn/2017/06/notebooks/</a><a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://yihui.org/en/2018/09/notebook-war/" class="uri">https://yihui.org/en/2018/09/notebook-war/</a><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+
+</main>
+
+<p class="terms">
+  
+  
+  Categories:
+  
+  <a href='/categories/statistic'>statistic</a>
+  
+  <a href='/categories/%E6%83%B3%E6%B3%95'>想法</a>
+  
+  
+  
+  
+  Tags:
+  
+  <a href='/tags/python'>python</a>
+  
+  <a href='/tags/r'>R</a>
+  
+  
+  
+</p>
+ <div class="article-container">
+  <div id="disqus_thread"></div>
+<script>
+
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://deadfate.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+</div>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  <script src="//cdn.bootcss.com/highlight.js/9.18.1/highlight.min.js"></script>
+  <script src="//cdn.bootcss.com/highlight.js/9.18.1/languages/r.min.js"></script>
+  <script src="//cdn.bootcss.com/highlight.js/9.18.1/languages/python.min.js"></script>
+  <script src="//cdn.bootcss.com/highlight.js/9.18.1/languages/yaml.min.js"></script>
+  <script>
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  </script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156464110-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-156464110-1');
+  </script>
+  
+  <hr/>
+  © <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW">本站採用CC4.0授權</a> | <a href="https://github.com/deadfate-sky">Github</a>
+  
+  </footer>
+  </body>
+</html>
+

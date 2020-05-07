@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>上程設一些感想 | 算是紀錄一下</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap&subset=chinese-traditional" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+<link href="//cdn.bootcss.com/highlight.js/9.18.1/styles/github.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/todo/">todo</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">上程設一些感想</span></h1>
+<h2 class="author">deadfate</h2>
+<h2 class="date">2020/03/20</h2>
+</div>
+
+<main>
+
+
+
+<p>很多程式語言的新手建議，都會說要把自己在學習過程的心得、心路歷程記錄下來，所以這篇就是要做這件事。這件事也真的該做，之前摸了R的 <a href="http://topepo.github.io/caret/index.html">caret</a>包，也順便試了一些基礎的算法…還是叫啥？隨便，像是naive bayes之類的，但那時候沒有寫一些東西記錄下來，現在就會忘記怎麼弄了。雖然如果我會去看當初的學習資源，應該還是回想得起來啦。</p>
+<div id="第一次的作業" class="section level2">
+<h2>第一次的作業</h2>
+<p>這份作業是要求輸入n，就畫出一個以n為半徑，用<code>*</code>畫出來的圓。</p>
+<script src="https://gist.github.com/deadfate-sky/c4421bd6950950043bd80ae36a337a75.js"></script>
+<p>總的來說這份作業其實沒有很難，我不知道當初為什麼糾結了那麼久。</p>
+<p>我就把這份code一步一步拆解好了，看我能不能夠講清楚我做了啥事。</p>
+<pre><code>#include&lt;stdio.h&gt;
+int main()
+{
+    int n;
+
+    //這部分是要讀取使用者輸入的n
+    //也就是半徑
+    printf(&quot;Enter number of r:\n&quot;);
+    scanf(&quot;%d&quot;,&amp;n);</code></pre>
+<p>這部分沒啥問題，就是先把<code>studio.h</code>這個基本庫弄進來（?），然後因為要先讀取使用者輸入的n，所以先定義一個n（其實我不知道這個行為是不是宣告? Declaration? 哀隨便啦），然後再用<code>scanf</code>把n讀進來。</p>
+<pre><code>//宣告？呼叫？但總之l會用到，就也先指定一下l是啥
+    //l就是半徑
+int l = 2 * n-1;
+
+//用for loop把長為r，寬為c的正方形print出來
+for(int r=1; r&lt;=l; r++)
+{
+    for(int c=1; c&lt;=l; c++)
+    {
+
+        // Print circle
+        //如果在圓半徑外，print空白格，其餘print*
+        if((r - n) * (r - n) + (c - n) * (c - n) &lt;= (n - 1) * (n - 1))
+        {
+            printf(&quot;*&quot;);
+        }
+            
+        else
+        {
+            printf(&quot; &quot;);
+        }
+    }
+//每跑一次一列for loop，要\n印出enter
+printf(&quot;\n&quot;);
+}</code></pre>
+<p>我註解打的滿清楚的，這份作業的邏輯，就是要先寫兩個<code>for loop</code>，分別把row跟col的格子（?）print出了，然後再用<code>if</code>判斷每一格跟圓心<code>(n,n)</code>的距離，是不是比半徑還小。比半徑小就是圓內，printf<code>*</code>，其他就printf空格。</p>
+<p>就這樣，這份作業就完成了。真不懂上週為何覺得這麼難寫…。</p>
+</div>
+
+</main>
+
+<p class="terms">
+  
+  
+  Categories:
+  
+  <a href='/categories/programming'>programming</a>
+  
+  
+  
+  
+  Tags:
+  
+  <a href='/tags/c'>C</a>
+  
+  <a href='/tags/%E8%AA%8D%E7%9C%9F'>認真</a>
+  
+  
+  
+</p>
+ <div class="article-container">
+  <div id="disqus_thread"></div>
+<script>
+
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://deadfate.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+</div>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  <script src="//cdn.bootcss.com/highlight.js/9.18.1/highlight.min.js"></script>
+  <script src="//cdn.bootcss.com/highlight.js/9.18.1/languages/r.min.js"></script>
+  <script src="//cdn.bootcss.com/highlight.js/9.18.1/languages/python.min.js"></script>
+  <script src="//cdn.bootcss.com/highlight.js/9.18.1/languages/yaml.min.js"></script>
+  <script>
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  </script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156464110-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-156464110-1');
+  </script>
+  
+  <hr/>
+  © <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW">本站採用CC4.0授權</a> | <a href="https://github.com/deadfate-sky">Github</a>
+  
+  </footer>
+  </body>
+</html>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>statistic on 算是紀錄一下</title>
+    <link>/categories/statistic/</link>
+    <description>Recent content in statistic on 算是紀錄一下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/statistic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>jupyter擴充功能</title>
+      <link>/2020/04/21/jupyter-extension/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/04/21/jupyter-extension/</guid>
+      <description>因為最近有在學python，所以各式各樣的IDE都試了一輪，從anaconda、pycharm、比較不紅的winpython，甚至還是試過想</description>
+    </item>
+    
+    <item>
+      <title>目前蒐集的python資源</title>
+      <link>/2020/04/06/resource-of-python/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/04/06/resource-of-python/</guid>
+      <description>因為找到一些不錯的入門書，紀錄一下 如果要看R跟data viz，可以看另一篇乾貨文，但主要是R跟資料視覺化的。 入門 A Whirlwind Tour of Python https://jakevdp.github.io/WhirlwindTourOfPython/ 順便把其他初學相</description>
+    </item>
+    
+    <item>
+      <title>關於資料分析的相關資源</title>
+      <link>/2020/04/06/the-resource-about-data-analysis/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/04/06/the-resource-about-data-analysis/</guid>
+      <description>由於我的統計學是在學校上的，所以就不推薦相關資源的。 可汗學院的課程可以參考看看，coursera上應該也有不少R跟統計學相關的課程，都可以嘗</description>
+    </item>
+    
+    <item>
+      <title>這個blog怎麼弄出來的</title>
+      <link>/2020/01/21/build-this-blog/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/21/build-this-blog/</guid>
+      <description>其實在 about這邊就有提過，不過我還是把製作方式打得更清楚一點。 我主要是用blogdown這個套件建一個blog，然後再git到githu</description>
+    </item>
+    
+  </channel>
+</rss>

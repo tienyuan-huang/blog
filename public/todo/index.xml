@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Todos on 算是紀錄一下</title>
+    <link>/todo/</link>
+    <description>Recent content in Todos on 算是紀錄一下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Feb 1947 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/todo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>todo</title>
+      <link>/todo/todo/</link>
+      <pubDate>Fri, 28 Feb 1947 00:00:00 +0000</pubDate>
+      
+      <guid>/todo/todo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 算是紀錄一下</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on 算是紀錄一下</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>台灣學生的寫作為什麼很爛？</title>
+      <link>/2020/05/08/poor-writing/</link>
+      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/08/poor-writing/</guid>
+      <description>tags: 認真 待 blog 這其實是之前寫的文章。寫那麼多，還是發一下好了。順便預告一下，周末可能瞬間更新多篇文章XDD。 看到 這篇老師的文章，不只有感，還想到</description>
+    </item>
+    
+    <item>
+      <title>該不會RMD也不行？</title>
+      <link>/2020/05/08/%E8%A9%B2%E4%B8%8D%E6%9C%83md%E4%B9%9F%E4%B8%8D%E8%A1%8C/</link>
+      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/08/%E8%A9%B2%E4%B8%8D%E6%9C%83md%E4%B9%9F%E4%B8%8D%E8%A1%8C/</guid>
+      <description>拜託行行好== 氣死ㄏㄏ</description>
+    </item>
+    
+    <item>
+      <title>jupyter擴充功能</title>
+      <link>/2020/04/21/jupyter-extension/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/04/21/jupyter-extension/</guid>
+      <description>因為最近有在學python，所以各式各樣的IDE都試了一輪，從anaconda、pycharm、比較不紅的winpython，甚至還是試過想</description>
+    </item>
+    
+    <item>
+      <title>學習的三個層次</title>
+      <link>/2020/04/06/three-levels-of-learning/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/04/06/three-levels-of-learning/</guid>
+      <description>誠如各位知道（或不知道），我是一個文組黑加系黑。文組黑是因為，覺得很多文組仔對於諸多議題的立場只是信仰，根本沒有做過什麼「批判性思考」（沒錯</description>
+    </item>
+    
+    <item>
+      <title>目前蒐集的python資源</title>
+      <link>/2020/04/06/resource-of-python/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/04/06/resource-of-python/</guid>
+      <description>因為找到一些不錯的入門書，紀錄一下 如果要看R跟data viz，可以看另一篇乾貨文，但主要是R跟資料視覺化的。 入門 A Whirlwind Tour of Python https://jakevdp.github.io/WhirlwindTourOfPython/ 順便把其他初學相</description>
+    </item>
+    
+    <item>
+      <title>關於資料分析的相關資源</title>
+      <link>/2020/04/06/the-resource-about-data-analysis/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/04/06/the-resource-about-data-analysis/</guid>
+      <description>由於我的統計學是在學校上的，所以就不推薦相關資源的。 可汗學院的課程可以參考看看，coursera上應該也有不少R跟統計學相關的課程，都可以嘗</description>
+    </item>
+    
+    <item>
+      <title>上程設一些感想</title>
+      <link>/2020/03/20/c-programming-class/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/03/20/c-programming-class/</guid>
+      <description>很多程式語言的新手建議，都會說要把自己在學習過程的心得、心路歷程記錄下來，所以這篇就是要做這件事。這件事也真的該做，之前摸了R的 caret包</description>
+    </item>
+    
+    <item>
+      <title>rbind io</title>
+      <link>/2020/03/17/rbind-io-domain-name/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/03/17/rbind-io-domain-name/</guid>
+      <description>因為換了域名 ，所以發個文章測試一下。如果是用blogdown架設blog，也可以跟rbind申請域名唷。不過把網址重新導向https花了一點</description>
+    </item>
+    
+    <item>
+      <title>作文超進化 筆記心得</title>
+      <link>/2020/02/20/how-to-write-well/</link>
+      <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/02/20/how-to-write-well/</guid>
+      <description>這本書真的很不錯。教了一些基本的寫作技術，例如動詞該怎麼用、細節該怎麼寫，才能吸引觀眾眼球，或是動態的感覺該如何營造，靜態的情緒要如何描寫。</description>
+    </item>
+    
+    <item>
+      <title>沈伯洋老師 資訊戰然後呢  </title>
+      <link>/2020/01/31/information-warfare/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/31/information-warfare/</guid>
+      <description>這篇想分享一下沃草X沈伯洋 這系列影片，非常清楚地介紹了資訊戰的定位、作法，以其如何防範。其實資訊戰最主要的目的就是讓一個國家「亂」，他也不需</description>
+    </item>
+    
+    <item>
+      <title>大佬曾經的拖延症</title>
+      <link>/2020/01/27/procrastination/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/27/procrastination/</guid>
+      <description>謝益輝大佬在他的 這篇blog提到他在職涯初期的雷貨行徑。看了一是感到安慰，二來又覺得有點難過。安慰是因為原來如此厲害之人，也是有著人性的缺點</description>
+    </item>
+    
+    <item>
+      <title>spin rate，還有棒球</title>
+      <link>/2020/01/23/spinrate/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/23/spinrate/</guid>
+      <description>https://deadfate-sky.github.io/MLB/swing-and-miss.html 這其實是某次的產品。不過寫很爛，就算了。 想特別提的，是這個網站跟 文章。他叫driveline，好像是一個棒球科學相關的…私人學校？但總之就</description>
+    </item>
+    
+    <item>
+      <title>文組？理組？反正我是失敗組</title>
+      <link>/2020/01/23/study/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/23/study/</guid>
+      <description>這篇文章最一開始是發噗浪。 開頭先附上兩部還蠻讚的數學影片： 數學的版圖、 Essence of linear algebra。第二部是線性代數的基礎影片，因為有看一些統計跟機</description>
+    </item>
+    
+    <item>
+      <title>追求夢想，或是支持別人築夢</title>
+      <link>/2020/01/23/to-dream-or-not-to-dream/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/23/to-dream-or-not-to-dream/</guid>
+      <description>次郎的這篇文章，看了只有，唉，剛好符合我一直感受到的創作者辛酸 身為重度實況粉絲，一天不在圖奇前面待上五六個小時，一邊做其他事會渾身不對勁的人</description>
+    </item>
+    
+    <item>
+      <title>[動漫作品心得]青春豬頭少年</title>
+      <link>/2020/01/21/seishun-buta-yaro/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/21/seishun-buta-yaro/</guid>
+      <description>原始日期：2019-09-02 在暑假（2019/8月）努力地看了這部作品的小說與動漫後，決定為它寫點心得。 先下結論，神作。目前我劇情只追到小</description>
+    </item>
+    
+    <item>
+      <title>介紹羅森的小說</title>
+      <link>/2020/01/21/roson/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/21/roson/</guid>
+      <description>原始日期：2019-02-25 安安大家好，我要再來寫一次，「為什麼我會那麼推薦羅森的小說？」 肉戲有加分什麼的就不說了。對我來說，羅森的小說除</description>
+    </item>
+    
+    <item>
+      <title>這個blog怎麼弄出來的</title>
+      <link>/2020/01/21/build-this-blog/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/21/build-this-blog/</guid>
+      <description>其實在 about這邊就有提過，不過我還是把製作方式打得更清楚一點。 我主要是用blogdown這個套件建一個blog，然後再git到githu</description>
+    </item>
+    
+    <item>
+      <title>文學教育</title>
+      <link>/2020/01/20/chinese-literature/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/20/chinese-literature/</guid>
+      <description>這篇本來是跟某個朋友討論各校中文系，後來插入文學教育現況。為了維持文章的完整性，就只保留文學教育與改革的部分。 文學教育與改革 以前的「文學課程</description>
+    </item>
+    
+    <item>
+      <title>本科需要的能力</title>
+      <link>/2020/01/20/ability/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/20/ability/</guid>
+      <description>這篇文章是從plurk救出來的..時間是2019/4/20。 關於前一篇文提到，即使在自己想要的科系，有些這個科系需要的基本能力，我還是得自己</description>
+    </item>
+    
+    <item>
+      <title>開站測試</title>
+      <link>/2020/01/20/one/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/20/one/</guid>
+      <description>2020-05-08 02:51:58 警告，這是一篇測試文章 可以發大財了嗎？ 這真的只是一篇測試文章，開站測試。以下是亂數產生文章， 來自這裡。 還落久定於心學 至他道的你重容打臺很</description>
+    </item>
+    
+  </channel>
+</rss>
