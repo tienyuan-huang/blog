@@ -9,7 +9,9 @@ tags:
   - R
   - 乾貨
 ---
-由於我的統計學是在學校上的，所以就不推薦相關資源的。 [可汗學院](https://www.khanacademy.org/math/statistics-probability)的課程可以參考看看，coursera上應該也有不少```R```跟統計學相關的課程，都可以嘗試看看。畢竟如果只是基本的資料分析，並不需要到太艱難的統計學。  
+由於我的統計學是在學校上的，所以就不推薦相關資源的。 [可汗學院](https://www.khanacademy.org/math/statistics-probability)的課程可以參考看看，coursera上應該也有不少```R```跟統計學相關的課程，都可以嘗試看看。畢竟如果只是基本的資料分析，並不需要到太艱難的統計學。
+
+不過最近多了好資源。有空推。  
 
 ## R language  
 
