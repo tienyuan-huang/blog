@@ -6,10 +6,19 @@
     <description>Recent content in 隨筆 on 算是紀錄一下</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/%E9%9A%A8%E7%AD%86/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hadoop、Spark</title>
+      <link>/2020/07/08/hadoop-spark/</link>
+      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/07/08/hadoop-spark/</guid>
+      <description>哎呀！因為之後預計要推甄，加上我的blog已經草比人高，所以發幾篇文章除草，順便繼續持續架設技術blog的目的：紀錄我到底又學了哪些東西。 其</description>
+    </item>
     
     <item>
       <title>rbind io</title>
