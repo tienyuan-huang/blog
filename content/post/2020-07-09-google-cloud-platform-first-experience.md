@@ -14,7 +14,8 @@ tags:
 
 GCP就跟微軟的[Azure](https://aws.amazon.com/tw/) 、[Amazon web services](https://aws.amazon.com/tw/) 一樣，都是提供這些服務的平台，只是作為網路時代起家的google，在這部份的業務上其實落後微軟跟Amazon不少。也正因為這樣，google也很努力的宣傳他們自家的GCP。  
 
-那就直接進入GCP的使用吧！我是使用他們的compute engine，網路上有很多關於如何填信用卡認證、如何開一台虛擬主機（Virtual Machine）的教學，他們的介面也有使用指引，看一看應該就能成功開啟了。  
+那就直接進入GCP的使用吧！我是使用他們的compute engine，網路上有很多關於如何填信用卡認證、如何開一台虛擬主機（Virtual Machine）的教學，他們的介面也有使用指引，看一看應該就能成功開啟了。google很佛心的提供了300鎂的免費額度試用，可以用滿久的。  
+
 
 ## 安裝GPU driver、tensorflow跟其他需要的東西  
 主機位置挑哪裡都可以，反正有GPU的地方就好。我的系統是選擇ubuntu 20.04，因為自己的筆電也是用這個系統（有空也來寫一篇灌系統的心得），cpu選8顆，因為要8顆才能選GPU。硬碟記得選個20G，因為10G很容易滿。GPU的話隨便挑，價格有差，但應該沒差太多，反正都是Nvidia。  
