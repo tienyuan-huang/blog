@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>google cloud platform 初體驗</title>
+      <link>/2020/07/09/google-cloud-platform-first-experience/</link>
+      <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/07/09/google-cloud-platform-first-experience/</guid>
+      <description>因為暑假參加了Tony老師的工作坊，剛好有機會試試google cloud platform這個東西。google cloud platform又簡稱GCP，跟go</description>
+    </item>
+    
+    <item>
       <title>Hadoop、Spark</title>
       <link>/2020/07/08/hadoop-spark/</link>
       <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>

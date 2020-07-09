@@ -6,15 +6,24 @@
     <description>Recent content in Tags on 算是紀錄一下</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>python</title>
+      <link>/tags/python/</link>
+      <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R</title>
       <link>/tags/r/</link>
-      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/r/</guid>
       <description></description>
@@ -35,15 +44,6 @@
       <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/%E8%AA%8D%E7%9C%9F/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>/tags/python/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/python/</guid>
       <description></description>
     </item>
     
