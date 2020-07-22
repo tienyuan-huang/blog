@@ -6,10 +6,19 @@
     <description>Recent content in 認真 on 算是紀錄一下</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/%E8%AA%8D%E7%9C%9F/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>manjaro linux 使用心得</title>
+      <link>/2020/07/23/the-use-review-of-manjaro-linux/</link>
+      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/07/23/the-use-review-of-manjaro-linux/</guid>
+      <description>近日把不久前才開始使用的ubuntu換成manjaro這個linux發行版。之所以會這麼做有一些小原因，像是如果我用ubuntu跑Path of</description>
+    </item>
     
     <item>
       <title>深度學習、神經網絡、吳恩達跟李宏毅</title>

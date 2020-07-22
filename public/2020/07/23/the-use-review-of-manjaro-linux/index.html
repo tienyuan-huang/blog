@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>manjaro linux 使用心得 | 算是紀錄一下</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap&subset=chinese-traditional" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+<link href="//cdn.bootcss.com/highlight.js/9.18.1/styles/github.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/todo/">todo</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">manjaro linux 使用心得</span></h1>
+<h2 class="author">deadfate-sky</h2>
+<h2 class="date">2020/07/23</h2>
+</div>
+
+<main>
+<p>近日把不久前才開始使用的ubuntu換成manjaro這個linux發行版。之所以會這麼做有一些小原因，像是如果我用ubuntu跑Path of Exile就完全沒辦法用其他程式，這樣我要查別人的build抄作業很麻煩，所以就換了（？？？？這什麼啦機理由？？？）。</p>
+<p>於是我就愉快的換系統啦！</p>
+<p>先看個留作紀念的ubuntu系統資訊</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">evan19983314@evan19983314-X556UR:~$ screenfetch
+                          ./+o+-       evan19983314@evan19983314-X556UR
+                  yyyyy- -yyyyyy+      OS: Ubuntu 20.04 focal
+               ://+//////-yyyyyyo      Kernel: x86_64 Linux 5.4.0-40-generic
+           .++ .:/++++++/-.+sss/<span style="color:#e6db74">`</span>      Uptime: 2h 3m
+         .:++o:  /++++++++/:--:/-      Packages: <span style="color:#ae81ff">2662</span>
+        o:+o+:++.<span style="color:#e6db74">`</span>..<span style="color:#e6db74">```</span>.-/oo+++++/     Shell: bash
+       .:+o:+o/.          <span style="color:#e6db74">`</span>+sssoo+/    Resolution: 1920x1080
+  .++/+:+oo+o:<span style="color:#e6db74">`</span>             /sssooo.   DE: GNOME 3.36.3
+ /+++//+:<span style="color:#e6db74">`</span>oo+o               /::--:.   WM: Mutter
+ <span style="color:#ae81ff">\+</span>/+o+++<span style="color:#e6db74">`</span>o++o               ++////.   WM Theme: Adwaita
+  .++.o+++oo+:<span style="color:#e6db74">`</span>             /dddhhh.   GTK Theme: Yaru <span style="color:#f92672">[</span>GTK2/3<span style="color:#f92672">]</span>
+       .+.o+oo:.          <span style="color:#e6db74">`</span>oddhhhh+    Icon Theme: Yaru
+        <span style="color:#ae81ff">\+</span>.++o+o<span style="color:#e6db74">``</span>-<span style="color:#e6db74">````</span>.:ohdhhhhh+     Font: Ubuntu <span style="color:#ae81ff">11</span>
+         <span style="color:#e6db74">`</span>:o+++ <span style="color:#e6db74">`</span>ohhhhhhhhyo++os:      Disk: 115G / 226G <span style="color:#f92672">(</span>54%<span style="color:#f92672">)</span>
+           .o:<span style="color:#e6db74">`</span>.syhhhhhhh/.oo++o<span style="color:#e6db74">`</span>      CPU: Intel Core i5-6198DU @ 4x 2.8GHz <span style="color:#f92672">[</span>53.0°C<span style="color:#f92672">]</span>
+               /osyyyyyyo++ooo+++/     GPU: GeForce 930MX
+                   <span style="color:#e6db74">`````</span> +oo+++o<span style="color:#ae81ff">\:</span>     RAM: 3991MiB / 7829MiB
+                          <span style="color:#e6db74">`</span>oo++.      
+evan19983314@evan19983314-X556UR:~$
+</code></pre></div><p>在來看一下新的manjaro<br>
+<img src="https://i.imgur.com/iQLbajQ.png" alt="manjaro"></p>
+<h2 id="為何從ubuntu到manajro">為何從ubuntu到manajro</h2>
+<p>最一開始是被這篇文章燒到：<a href="https://www.chainnews.com/articles/242900708378.htm">为什么我抛弃了 Ubuntu？</a>，他說manjaro的整個系統的應用，還有desktop envirment都是已經輕量、低耗為目的，這個特色深深的吸引了我（作為一個因為FB app太肥而去用FB lite 忍受超級小字的人）。也確實，ubuntu預設的gnome桌面會一直偷吃我的讀顯內存，大概有事沒事幾十到一兩百MB，這也讓我有了「搞不好換個偷吃顯卡少一點的系統跑遊戲會順一點」的念頭。</p>
+<p>就在這個大膽的想法中，我就大概背備份了10G的重要內容，勇敢的換下去了。</p>
+<p>在細談安裝之前，也順便提一下linux的各大發行版好了。在現在這個時間，2020，linux其實有了相當多的發行版，而且對terminal新手算是非常友善。像ubuntu，記一記apt install之類的指令，可以完成超級多事情，使用terminal沒有想像中的困難。可以參考一下<a href="https://zh.wikipedia.org/wiki/Linux%E5%8F%91%E8%A1%8C%E7%89%88">維基百科的介紹</a></p>
+<p>那就開始介紹manjaro吧。那其實網路上的介紹很豐富，中文世界也找得到一定量的資訊，我就不多提了，給一些網址。</p>
+<ul>
+<li>官網： <a href="https://manjaro.org/">https://manjaro.org/</a></li>
+<li>wiki:<a href="https://zh.wikipedia.org/wiki/Manjaro_Linux">https://zh.wikipedia.org/wiki/Manjaro_Linux</a></li>
+</ul>
+<p>然後呢，當初我是看著一些文章跟yt setup的，所以也把這些參考資料貼上來。</p>
+<ul>
+<li>
+<p>青鳥脈搏：<a href="https://archer1609wp.wordpress.com/2018/04/29/manjaro-first-look/">https://archer1609wp.wordpress.com/2018/04/29/manjaro-first-look/</a><br>
+這個blog寫了滿多關於manjaro的東西的，如果在google搜尋某些資訊，用中文一定很容易搜到這個blog XD。像這篇 <a href="https://archer1609wp.wordpress.com/2018/10/23/manjaro-font-config-1/">Manjaro字型設定折騰記（上）</a></p>
+</li>
+<li>
+<p>manjaro踩坑记：<a href="https://mrswolf.github.io/zh-cn/2019/05/24/manjaro%E8%B8%A9%E5%9D%91%E8%AE%B0/index.html">https://mrswolf.github.io/zh-cn/2019/05/24/manjaro%E8%B8%A9%E5%9D%91%E8%AE%B0/index.html</a></p>
+</li>
+<li>
+<p>Manjaro Linux 踩坑調教記錄：<a href="https://www.jishuwen.com/d/pfAm/zh-tw">https://www.jishuwen.com/d/pfAm/zh-tw</a></p>
+</li>
+<li>
+<p>manjaro xfce 18.0 踩坑记录：<a href="https://juejin.im/entry/5da56cd56fb9a04e223330ac#_label8_0">https://juejin.im/entry/5da56cd56fb9a04e223330ac#_label8_0</a></p>
+</li>
+</ul>
+<p>這幾個應該都是西岸國人發的文章，如何安裝、如何設置包管理器都介紹的非常詳細，大推。</p>
+<p>再來放一些影片類的：</p>
+<ul>
+<li>
+<p>Installing Nvidia drivers on a fresh install of Majaro Arch Linux: <a href="https://youtu.be/ea5sgVImGmA">https://youtu.be/ea5sgVImGmA</a><br>
+雖然這是2019的影片，但基本上manjaro的圖形安裝界面就是這樣走，沒什麼大坑。</p>
+</li>
+<li>
+<p>How To Set Up Manjaro 19 KDE Edition For Gaming: <a href="https://youtu.be/ibge7-4sitQ">https://youtu.be/ibge7-4sitQ</a><br>
+對我這樣一個（雲）玩家而言，能夠遊戲的當然非常重要，照著這個影片操作，基本上就能把玩遊戲需要的各式平台跟套件，像<strong>steam</strong>、linux上知名的<strong>lutris</strong>，跟想執行一些windows才能完的遊戲必裝的<strong>wine</strong>，通通都可以在manjaro用套件管理器點擊安裝。當然，用terminal也可以很快的裝好。</p>
+</li>
+</ul>
+<p>之後預計也會在寫幾篇文，談談怎麼在manjaro或其他linux發行版中設置遊戲環境，跟linux在2020這個年代，對遊戲的支援是如何地突飛猛進。</p>
+<p>參考資料放完，就簡單再把一些對我比較重要的資訊貼出來。</p>
+<h2 id="一些安裝後的配置">一些安裝後的配置</h2>
+<p>首先當然是先把東西套件更新更新</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pacman -Syu 
+</code></pre></div><p>manjaro是用pacman這個套件管理器，跟ubuntu的apt指令不大一樣，但邏輯上都差不多。順便附上指令參考的兩個文章。
+<a href="https://www.jishuwen.com/d/pfAm/zh-tw">https://www.jishuwen.com/d/pfAm/zh-tw</a><br>
+<a href="https://www.cnblogs.com/kirito-c/p/11181978.html">https://www.cnblogs.com/kirito-c/p/11181978.html</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pacman -Syu                   <span style="color:#75715e"># 升級整個系統，y 是更新資料庫，yy 是強制更新，u 是升級軟體</span>
+pacman -S package_name  安裝套件
+pacman -R package_name  移除套件
+</code></pre></div><p>記得先安裝pamac這個圖形界面的套件管理器</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pacman -S pamac
+</code></pre></div><p>對了，pacman的指令前面記得加個<code>sudo</code>，用root的權限才能安裝跟移除套件。</p>
+<p>因為manjaro是使用arch linux為底，所以也可以使用AUR的套件庫，詳情可以參照一下<a href="https://wiki.archlinux.org/index.php/Arch_User_Repository_(%E6%AD%A3%E9%AB%94%E4%B8%AD%E6%96%87)">AUR wiki</a></p>
+<p>在pacman裡可以在設置中設定納入AUR的套件庫，用指令的話，通常都會透過一些幫手套件，會比pacman的命令還要方便，像是<code>yay</code>之類的。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo pacman -S yay
+</code></pre></div><p>然後yay的指令基本上跟pacman差不多</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">yay -S package_name
+</code></pre></div><p><strong>裝個輸入法</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># 我是用fcitx</span>
+sudo pacman -S fcitx fcitx-chewing
+<span style="color:#75715e"># 對不同 GUI 框架的支援，全部安裝</span>
+sudo pacman -S fcitx-im
+<span style="color:#75715e"># 圖形化配置介面</span>
+sudo pacman -S fcitx-configtool
+</code></pre></div><p>設定一下</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vim ~/.xprofile
+</code></pre></div><p>這邊要稍微知道vim怎麼使用</p>
+<pre><code>GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx
+</code></pre><p>設定完就應該可以用了！不行的話在上網搜尋一下</p>
+<h2 id="安裝需要用的套件">安裝需要用的套件</h2>
+<p><strong>安裝R語言</strong><br>
+對，我需要裝</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo pacman -S r
+</code></pre></div><p>這邊真的要稱讚一下，基本上需要任何東西，都能在manjaro的pacman或AUR宇宙找到，而且版本基本上滿新的。不用像ubuntu，某些東西要連到<a href="https://zhuanlan.zhihu.com/p/55250294">PPA</a>才裝得進去，有好有壞啦。</p>
+<p><strong>Rstudio</strong><br>
+裝完R通常都用這個ide，很不巧的是rstudio官方自己沒有提供manajro的官方安裝檔，所以要去AUR找。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">yay -S rstudio-desktop-git
+</code></pre></div><p><a href="https://aur.archlinux.org/packages/rstudio-desktop-git/">https://aur.archlinux.org/packages/rstudio-desktop-git/</a></p>
+<p>對了，到這邊才想起來，上述有關安裝的指令，基本上都能在pamac用「搜尋—安裝」的方式完成！只是我習慣用terminal安裝，這樣一旦有錯誤，也比較好找出問題解決。</p>
+<p>然後這邊要特別提一下，我的rstudio是裝rstudio-desktop-git版的，應該就是直接從github抓檔案下來make？我也不清楚，但我試過rstudio-desktop跟rstudio-desktop-bin兩種版本，一個是一點進去就crash，另一個是用了10分鐘也crash，所以建議還是用git版的，相對穩定。</p>
+<p><strong>miniconda</strong><br>
+我用python習慣用miniconda來裝，因為這樣後面要裝tensorflow-gpu跟python的intel發行版都比較方便。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh  
+
+bash Miniconda3-latest-Linux-x86_64.sh
+</code></pre></div><p>然後一路裝到底就好，記得查一下怎麼把自動進入base的環境取消掉。</p>
+<p>關於tensorflow-gpu如何安裝，我在<a href="https://deadfate.rbind.io/2020/07/09/google-cloud-platform-first-experience/">GCP初體驗</a>有說過。用conda安裝的話，會自動幫你裝上相依的cuDnn跟cuda toolkit，就不用像用pip安裝一樣，還要自己確認這些東西的版本。</p>
+<p>除了tensorflow之外，我也會用conda安裝<a href="https://software.intel.com/content/www/cn/zh/develop/articles/using-intel-distribution-for-python-with-anaconda.html">intel發行的python</a> ，就是嚐個鮮跟爽。</p>
+<p>不過intel-python的tensorflow好像不錯，在跑一些比較小的DL訓練，像是經典的mnist，如果層數跟neural都不多的話，intel-python會比我的nvidia 930mx還要快很多。（我不知道為什麼每次要用GPU的時候，在set model的那個階段<code>model = keras.Sequential()</code>都會跑瞎雞巴久。</p>
+<h2 id="結語">結語</h2>
+<p>好啦！簡單的intro就到這邊，之後會再提一些關於遊戲設置跟安裝的部份。</p>
+
+</main>
+
+<p class="terms">
+  
+  
+  Categories:
+  
+  <a href='/categories/programming'>programming</a>
+  
+  
+  
+  
+  Tags:
+  
+  <a href='/tags/%E4%B9%BE%E8%B2%A8'>乾貨</a>
+  
+  <a href='/tags/%E8%AA%8D%E7%9C%9F'>認真</a>
+  
+  
+  
+</p>
+ <div class="article-container">
+  <div id="disqus_thread"></div>
+<script>
+
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://deadfate.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+</div>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  <script src="//cdn.bootcss.com/highlight.js/9.18.1/highlight.min.js"></script>
+  <script src="//cdn.bootcss.com/highlight.js/9.18.1/languages/r.min.js"></script>
+  <script src="//cdn.bootcss.com/highlight.js/9.18.1/languages/python.min.js"></script>
+  <script src="//cdn.bootcss.com/highlight.js/9.18.1/languages/yaml.min.js"></script>
+  <script>
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  </script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156464110-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-156464110-1');
+  </script>
+  
+  <hr/>
+  © <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW">本站採用CC4.0授權</a> | <a href="https://github.com/deadfate-sky">Github</a>
+  
+  </footer>
+  </body>
+</html>
+
