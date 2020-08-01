@@ -10,6 +10,15 @@
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+
+    <item>
+      <title>關於學習與輸出的書</title>
+      <link>/2020/08/01/how-to-learning-and-how-to-write/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/08/01/how-to-learning-and-how-to-write/</guid>
+      <description>最近看了兩本關於學習或是閱讀的書，但我主要的閱讀目的，是針對輸出的部份。在看書這件事情上，我基本上沒什麼困擾，畢竟不是有閱讀障礙，或是看到字</description>
+    </item>
     
     <item>
       <title>manjaro linux 使用心得</title>
