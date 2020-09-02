@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 算是紀錄一下</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>分析跟運作</title>
+      <link>/2020/09/02/analysis-and-operation/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/09/02/analysis-and-operation/</guid>
+      <description>我一直以為自己很喜歡「分析」這回事，對事實現況或某件提出自己的點與看法。也是因為這樣，才選擇念社會科學，唸了似乎最有自己獨特觀點的社會學系；</description>
+    </item>
     
     <item>
       <title>《超速學習》筆記</title>
