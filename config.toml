@@ -27,10 +27,6 @@ hasCJKLanguage = true
     name = "Tags"
     url = "/Tags/"
     weight = 4
-[[menu.main]]
-    name = "todo"
-    url = "/todo/"
-    weight = 5
 [params]
     description = "A website built through Hugo and blogdown."
     footer = "&copy; [本站採用CC4.0授權](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW) | [Github](https://github.com/deadfate-sky)"      
