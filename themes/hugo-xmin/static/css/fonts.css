@@ -1,8 +1,14 @@
+h1 {
+  font-family: 'Ubuntu', Noto Sans TC, Arial, sans-serif;
+}
 body {
-  font-family: 'Ubuntu', Noto Serif TC, Optima, Candara, Calibri, Arial, sans-serif;
+  font-family: 'Fira Sans', Noto Sans TC, Optima, Candara, Calibri, Arial, sans-serif;
   line-height:2;
+  font-weight:300;
 }
 code {
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: "Fira Code", Ubuntu mono, monospace;
   font-size: 85%;
 }
+
+
