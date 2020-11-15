@@ -1,0 +1,56 @@
+---
+title: i3-WM、資料工程、科技趨勢
+author: deadfate-sky
+date: '2020-11-16'
+slug: i3-wm-and data-engineer-and-tech-trend
+categories:
+  - programming
+  - 想法
+  - statistic
+tags:
+  - R
+  - 乾貨
+---
+
+最近該忙的事情完啦！總算回歸，順便整理一下最近接觸到的東西。
+
+## i3 window manager
+前幾天一時腦充之下，想說我再嘗試一邊在xfce上裝i3 window manager。關於i3這個潮潮的視窗管理工具，我就不多介紹，貼兩篇文章：[1](https://amdgigabyte.github.io/i3-wm)、[2](https://godliuyang.wang/2019/08/24/manjaro-i3wm-huan-jing-pei-zhi-pian/)。因為我是用manajro系統，desktop envirment是xfce4，所以我參考了[這位大哥的影片](https://youtu.be/rnZm3g_rbwM)，跟[feeble nerd的blog](http://feeblenerd.blogspot.com/2015/11/pretty-i3-with-xfce.html)。詳情就有空補充，總之照著它們的步驟，我也用上了潮潮的i3-WM，透明的terminal加上快捷鍵調整視窗，真是怎麼用怎麼潮！
+
+附上一張潮潮的截圖（背景是老王）[^link]：  
+![i3-desktop](/img/i3wm.png)
+
+## Plumber, Data Engineer
+
+之前在準備推甄的時候，花了不少時間了解一下雲端服務，以及SaaS、PaaS跟IaaS這些「as a Service」到底差在哪裡。我暑假略摸過的GCP，就是一個雲端服務，也算是IaaS(Infrastructure as a Service)。接著某天去[satRday Taiwan 2020](https://taiwan2020.satrdays.org/)玩耍的時候[^1]（感謝冠豪陪同），有一個panel提到[{plumber}](https://www.rplumber.io/)這個東西。當時懵懵懂懂的聽，還不太能掌握「用R包裝的api」到底要拿來幹嘛。
+
+接著某天詢問秋園哥「data analysis的實際場景」長怎樣，加上[rstudio::conf-2020的這部影片](https://rstudio.com/resources/rstudioconf-2020/deploying-end-to-end-data-science-with-shiny-plumber-and-pins/)，我才總算知道，雲端服務、API，或是什麼docker、kubernetes，其實都是整個資料分析pipeline基礎建設的一環。
+
+上面的影片中，他是想打造一個自動化的體系，用來預測華盛頓D.C.的公共腳踏車每站的車輛數。想做這件事，有很多個環節，他的slide裡面有一張流程圖表示得很清楚：  
+![data-pipeline](/img/datapipe.png)
+
+當然也不忘推薦Rstudio自家的產品-Rstudio Connect（感覺很好用，我被燒得一塌糊塗）：  
+![R-connect](/img/rconnect.png)
+
+在整個流程中，雲端服務就是讓每個環節都可以部屬(deploy)的地方。畢竟要定期讀取資料，還要把結果呈現在shiny app上，供人取用，與其自己弄一台主機或伺服器來做這件事，挺麻煩的，不如用別人的服務就好。
+
+在演講裡面，讓我想記錄下來的有兩個點。第一個是上面提到的，「data analysis的實際場景」。一般來說，在學校內或是網路課程的資料分析，無論橫斷面資料或是panal data，都是「觀察資料」，就是你沒機會對其做實驗，得到實驗結果。礙於這類資料的特性，在學校做的資料分析報告或專案，都是「一條直線」，就是資料整理好，畫畫圖、做分析、預測模型，得到結果，然後沒了。但在我詢問過後，我才發現，真實的資料分析，會是一個循環的流程：會一直有新的資料產生，因此需要一個持續運作、自動化的流程，來蒐集資料、生成圖表、分析、預測；除此之外，現實中通常能對那些提供資料的樣本（一般來說是人），施加一些措施，然後觀察後續效果，典型的例子就是電商辦活動。因為這樣子的特性，現實中建立一個持續性的分析框架跟體系，然後持續使用，並依據資料施加決策，並用結果評價決策的好壞，才是真正資料分析需要的「工具」。所以，rstudio::conf的這個演講讓我相當的驚豔，因為他是我第一個看到完整的「資料分析流程示範」，又或者是「資料分析的生產應用」，有source code可以參考的那種。
+
+
+第二點是plumber api的用途，看完rstudio的演講之後，我才明白為何需要一個API來用。在R語言中，通常就是把一個訓練好的分析模型包裝成api，讓別人可以透過這個API來輸入資料，獲得預測結果。一般看到資料分析的作法，通常都是「分析資料，呈現結果」而已，很少考慮除了視覺化之外，要怎麼讓別人取用自己的成果（如果擁抱開源心態的話）。當然其實api在網路世界中無所不在，而一般我們上網，例如滑FB，也是發送請求給FB的伺服器，然後FB回傳網頁或資訊到我們的app或瀏覽器上面，這個程序跟取用API其實差不多。
+
+* [State of the Tidyverse](https://rstudio.com/resources/rstudioconf-2020/state-of-the-tidyverse/)
+
+因為提到了rstudio::conf，所以速記一下聽完韋大人演講的感想（只記聽得懂得部份LUL）：
+1. 用上lazy acess 的{vroom}真的挺快的，讀檔神器{data.frame}感到岌岌可危
+2. apply家族或是purrr的概念，第一次接觸真的滿難理解的，畢竟有點像for loop。不過熟悉apply之後就會很不自覺地想用map()，忘記有些情況其實直接用base R或矩陣方法會更有效率。
+3. ggplot3(?????????)
+
+
+## 科技趨勢
+
+同樣是因為準備推甄，所以我花了很多時間看[科技島讀](https://daodu.tech/)的文章。本來想整理一下看到幾個科技業的重要概念或趨勢，但因為上面提很多東西了，所以日後再說。目前最想把Amazon的「飛輪效應」整理起來，了解一下他們怎麼賣書賣成巨頭。
+
+[^1]:我是衝著[謝益輝大佬](https://yihui.org/)的演講去的。雖然遠端，依舊精彩！
+
+[^link]:因為第一次用相對路徑而非網址放圖片，貼一下說明連結：<https://github.com/rstudio/blogdown/issues/45>

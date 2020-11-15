@@ -6,10 +6,19 @@
     <description>Recent content in R on 算是紀錄一下</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>i3-WM、資料工程、科技趨勢</title>
+      <link>/2020/11/16/i3-wm-and-data-engineer-and-tech-trend/</link>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/11/16/i3-wm-and-data-engineer-and-tech-trend/</guid>
+      <description>最近該忙的事情完啦！總算回歸，順便整理一下最近接觸到的東西。 i3 window manager 前幾天一時腦充之下，想說我再嘗試一邊在xfce上裝i3 window manager。關</description>
+    </item>
     
     <item>
       <title>google cloud platform 初體驗</title>

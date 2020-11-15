@@ -6,24 +6,15 @@
     <description>Recent content in Categories on 算是紀錄一下</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>想法</title>
-      <link>/categories/%E6%83%B3%E6%B3%95/</link>
-      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/%E6%83%B3%E6%B3%95/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>programming</title>
       <link>/categories/programming/</link>
-      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/programming/</guid>
       <description></description>
@@ -32,9 +23,18 @@
     <item>
       <title>statistic</title>
       <link>/categories/statistic/</link>
-      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/statistic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>想法</title>
+      <link>/categories/%E6%83%B3%E6%B3%95/</link>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/%E6%83%B3%E6%B3%95/</guid>
       <description></description>
     </item>
     
