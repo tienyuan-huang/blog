@@ -39,6 +39,8 @@ tags:
 
 第二點是plumber api的用途，看完rstudio的演講之後，我才明白為何需要一個API來用。在R語言中，通常就是把一個訓練好的分析模型包裝成api，讓別人可以透過這個API來輸入資料，獲得預測結果。一般看到資料分析的作法，通常都是「分析資料，呈現結果」而已，很少考慮除了視覺化之外，要怎麼讓別人取用自己的成果（如果擁抱開源心態的話）。當然其實api在網路世界中無所不在，而一般我們上網，例如滑FB，也是發送請求給FB的伺服器，然後FB回傳網頁或資訊到我們的app或瀏覽器上面，這個程序跟取用API其實差不多。
 
+最後放一下{plumber}[主要作者的說明影片](https://rstudio.com/resources/webinars/expanding-r-horizons-integrating-r-with-plumber-apis/)。怎麼可以有人這麼帥又做出酷東西阿？
+
 * [State of the Tidyverse](https://rstudio.com/resources/rstudioconf-2020/state-of-the-tidyverse/)
 
 因為提到了rstudio::conf，所以速記一下聽完韋大人演講的感想（只記聽得懂得部份LUL）：
