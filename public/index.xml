@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>R base的內建pipeline</title>
+      <link>/2020/12/12/r-base-pipeline/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/12/12/r-base-pipeline/</guid>
+      <description>今天意外看到R core team也有在開發它們自己內建的pipeline，嚇得我趕緊下載了R的dev版本。R base版本的pipeline，長成|&amp;</description>
+    </item>
+    
+    <item>
       <title>i3-WM、資料工程、科技趨勢</title>
       <link>/2020/11/16/i3-wm-and-data-engineer-and-tech-trend/</link>
       <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
