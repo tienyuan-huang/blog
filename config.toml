@@ -34,4 +34,8 @@ hasCJKLanguage = true
     highlightjsCDN = "//cdnjs.cloudflare.com"
     highlightjsLang = ["r", "python","yaml", "bash"]
     highlightjsTheme = "github"
-    
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
