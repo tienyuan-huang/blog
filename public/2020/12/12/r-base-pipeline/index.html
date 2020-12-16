@@ -38,48 +38,53 @@
 </div>
 
 <main>
-<p>今天意外看到R core team也有在開發它們自己內建的pipeline，嚇得我趕緊下載了R的dev版本。R base版本的pipeline，長成<code>|&gt;</code>這附模樣，可以看到像下面那篇twitter的例子。<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/RStats?src=hash&amp;ref_src=twsrc%5Etfw">#RStats</a> community, really? It&#39;s been like 5 hours now and no one noticed the big news? 😛<a href="https://t.co/c4OXTO0WCw">https://t.co/c4OXTO0WCw</a><br><br>Thank you <a href="https://twitter.com/LukeTierney4?ref_src=twsrc%5Etfw">@LukeTierney4</a> <a href="https://twitter.com/_lionelhenry?ref_src=twsrc%5Etfw">@_lionelhenry</a> <a href="https://twitter.com/jimhester_?ref_src=twsrc%5Etfw">@jimhester_</a> (who else?)<a href="https://twitter.com/hashtag/pipypipy?src=hash&amp;ref_src=twsrc%5Etfw">#pipypipy</a> <a href="https://t.co/5P9QPe1H8a">pic.twitter.com/5P9QPe1H8a</a></p>&mdash; Henrik Bengtsson (@henrikbengtsson) <a href="https://twitter.com/henrikbengtsson/status/1334703130378788866?ref_src=twsrc%5Etfw">December 4, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+<link href="/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
+
+
+<p>今天意外看到R core team也有在開發它們自己內建的pipeline，嚇得我趕緊下載了R的dev版本。R base版本的pipeline，長成<code>|&gt;</code>這附模樣，可以看到像下面那篇twitter的例子。[^add html]</p>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+<a href="https://twitter.com/hashtag/RStats?src=hash&amp;ref_src=twsrc%5Etfw">#RStats</a> community, really? It's been like 5 hours now and no one noticed the big news? 😛<a href="https://t.co/c4OXTO0WCw">https://t.co/c4OXTO0WCw</a><br><br>Thank you <a href="https://twitter.com/LukeTierney4?ref_src=twsrc%5Etfw"><span class="citation">@LukeTierney4</span></a> <a href="https://twitter.com/_lionelhenry?ref_src=twsrc%5Etfw"><span class="citation">@_lionelhenry</span></a> <a href="https://twitter.com/jimhester_?ref_src=twsrc%5Etfw"><span class="citation">@jimhester_</span></a> (who else?)<a href="https://twitter.com/hashtag/pipypipy?src=hash&amp;ref_src=twsrc%5Etfw">#pipypipy</a> <a href="https://t.co/5P9QPe1H8a">pic.twitter.com/5P9QPe1H8a</a>
+</p>
+— Henrik Bengtsson (<span class="citation">@henrikbengtsson</span>) <a href="https://twitter.com/henrikbengtsson/status/1334703130378788866?ref_src=twsrc%5Etfw">December 4, 2020</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <p>裝好R-dev版本之後，我很快的找了關於<code>|&gt;</code>的help document來看看。
-<img src="/img/R-pipe-doc.png" alt="R-pipeline-help">
-<img src="/img/R-pipe-ex.png" alt="R-pipeline-example">
+<img src="/img/R-pipe-doc.png" alt="R-pipeline-help" />
+<img src="/img/R-pipe-ex.png" alt="R-pipeline-example" />
 文檔大致上長得如此，這個內建pipe的方法，就跟熟悉的<code>%&gt;%</code>一樣，例如：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#f92672">&gt;</span> mtcars <span style="color:#f92672">|&gt;</span> <span style="color:#a6e22e">subset</span>(cyl <span style="color:#f92672">==</span> <span style="color:#ae81ff">4</span>) <span style="color:#f92672">|&gt;</span> <span style="color:#a6e22e">subset</span>(select <span style="color:#f92672">=</span> mpg)
-<span style="color:#f92672">&gt;</span> 
+<pre class="r"><code>&gt; mtcars |&gt; subset(cyl == 4) |&gt; subset(select = mpg)
+&gt; 
                 mpg
-Datsun <span style="color:#ae81ff">710</span>     <span style="color:#ae81ff">22.8</span>
-Merc <span style="color:#ae81ff">240</span>D      <span style="color:#ae81ff">24.4</span>
-Merc <span style="color:#ae81ff">230</span>       <span style="color:#ae81ff">22.8</span>
-Fiat <span style="color:#ae81ff">128</span>       <span style="color:#ae81ff">32.4</span>
-Honda Civic    <span style="color:#ae81ff">30.4</span>
-Toyota Corolla <span style="color:#ae81ff">33.9</span>
-Toyota Corona  <span style="color:#ae81ff">21.5</span>
-Fiat X1<span style="color:#ae81ff">-9</span>      <span style="color:#ae81ff">27.3</span>
-Porsche <span style="color:#ae81ff">914-2</span>  <span style="color:#ae81ff">26.0</span>
-Lotus Europa   <span style="color:#ae81ff">30.4</span>
-Volvo <span style="color:#ae81ff">142</span>E     <span style="color:#ae81ff">21.4</span>
-</code></pre></div><p>就可以得到選出來的結果，看看cyl是4的車子，它的mpg是多少。其效果跟<code>{dplyr}</code>的<code>filter()</code>、<code>select()</code>一樣，只是現在全部都能用內建的函數完成。</p>
+Datsun 710     22.8
+Merc 240D      24.4
+Merc 230       22.8
+Fiat 128       32.4
+Honda Civic    30.4
+Toyota Corolla 33.9
+Toyota Corona  21.5
+Fiat X1-9      27.3
+Porsche 914-2  26.0
+Lotus Europa   30.4
+Volvo 142E     21.4</code></pre>
+<p>就可以得到選出來的結果，看看cyl是4的車子，它的mpg是多少。其效果跟<code>{dplyr}</code>的<code>filter()</code>、<code>select()</code>一樣，只是現在全部都能用內建的函數完成。</p>
 <p>另外，它也能讓pipeline直接進到function裡面，像是下面這樣</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#f92672">&gt;</span> mtcars <span style="color:#f92672">|&gt;</span> <span style="color:#a6e22e">subset</span>(cyl <span style="color:#f92672">==</span> <span style="color:#ae81ff">4</span>) <span style="color:#f92672">|&gt;</span> <span style="color:#a6e22e">\</span>(d) <span style="color:#a6e22e">lm</span>(mpg <span style="color:#f92672">~</span> disp, data <span style="color:#f92672">=</span> d)
+<pre class="r"><code>&gt; mtcars |&gt; subset(cyl == 4) |&gt; \(d) lm(mpg ~ disp, data = d)
 
-Call<span style="color:#f92672">:</span>
-<span style="color:#a6e22e">lm</span>(formula <span style="color:#f92672">=</span> mpg <span style="color:#f92672">~</span> disp, data <span style="color:#f92672">=</span> d)
+Call:
+lm(formula = mpg ~ disp, data = d)
 
-Coefficients<span style="color:#f92672">:</span>
+Coefficients:
 (Intercept)         disp  
-    <span style="color:#ae81ff">40.8720</span>      <span style="color:#ae81ff">-0.1351</span> 
-</code></pre></div><p>把選好的data.frame放進一個可以生成model的function裡面，效果跟
+    40.8720      -0.1351 </code></pre>
+<p>把選好的data.frame放進一個可以生成model的function裡面，效果跟
 <code>mtcars |&gt; subset(cyl == 4) |&gt; function(d) lm(mpg ~ disp, data = d)</code></p>
 <p>一樣。</p>
 <p>總結來說，R core team開發這個內建的水管，真是個酷東西。</p>
-<section class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1" role="doc-endnote">
-<p>因為在內嵌html的時候遇到一些困難，Hugo有問題，所以附上解決方案<a href="https://stackoverflow.com/questions/63198652/hugo-shortcode-ignored-saying-raw-html-omitted">https://stackoverflow.com/questions/63198652/hugo-shortcode-ignored-saying-raw-html-omitted</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</section>
+<p>[^add html]: 因為在內嵌html的時候遇到一些困難，Hugo有問題，所以附上解決方案<a href="https://stackoverflow.com/questions/63198652/hugo-shortcode-ignored-saying-raw-html-omitted" class="uri">https://stackoverflow.com/questions/63198652/hugo-shortcode-ignored-saying-raw-html-omitted</a></p>
 
 </main>
 
