@@ -18,7 +18,7 @@ tags:
 ![R-pipeline-help](/img/R-pipe-doc.png)
 ![R-pipeline-example](/img/R-pipe-ex.png)
 文檔大致上長得如此，這個內建pipe的方法，就跟熟悉的```%>%```一樣，例如：
-```R
+```r
 > mtcars |> subset(cyl == 4) |> subset(select = mpg)
 > 
                 mpg
@@ -37,7 +37,7 @@ Volvo 142E     21.4
 就可以得到選出來的結果，看看cyl是4的車子，它的mpg是多少。其效果跟```{dplyr}```的```filter()```、```select()```一樣，只是現在全部都能用內建的函數完成。
 
 另外，它也能讓pipeline直接進到function裡面，像是下面這樣
-```R
+```r
 > mtcars |> subset(cyl == 4) |> \(d) lm(mpg ~ disp, data = d)
 
 Call:

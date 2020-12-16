@@ -44,7 +44,7 @@
 <img src="/img/R-pipe-doc.png" alt="R-pipeline-help">
 <img src="/img/R-pipe-ex.png" alt="R-pipeline-example">
 文檔大致上長得如此，這個內建pipe的方法，就跟熟悉的<code>%&gt;%</code>一樣，例如：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#f92672">&gt;</span> mtcars <span style="color:#f92672">|&gt;</span> <span style="color:#a6e22e">subset</span>(cyl <span style="color:#f92672">==</span> <span style="color:#ae81ff">4</span>) <span style="color:#f92672">|&gt;</span> <span style="color:#a6e22e">subset</span>(select <span style="color:#f92672">=</span> mpg)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#f92672">&gt;</span> mtcars <span style="color:#f92672">|&gt;</span> <span style="color:#a6e22e">subset</span>(cyl <span style="color:#f92672">==</span> <span style="color:#ae81ff">4</span>) <span style="color:#f92672">|&gt;</span> <span style="color:#a6e22e">subset</span>(select <span style="color:#f92672">=</span> mpg)
 <span style="color:#f92672">&gt;</span> 
                 mpg
 Datsun <span style="color:#ae81ff">710</span>     <span style="color:#ae81ff">22.8</span>
@@ -60,7 +60,7 @@ Lotus Europa   <span style="color:#ae81ff">30.4</span>
 Volvo <span style="color:#ae81ff">142</span>E     <span style="color:#ae81ff">21.4</span>
 </code></pre></div><p>就可以得到選出來的結果，看看cyl是4的車子，它的mpg是多少。其效果跟<code>{dplyr}</code>的<code>filter()</code>、<code>select()</code>一樣，只是現在全部都能用內建的函數完成。</p>
 <p>另外，它也能讓pipeline直接進到function裡面，像是下面這樣</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#f92672">&gt;</span> mtcars <span style="color:#f92672">|&gt;</span> <span style="color:#a6e22e">subset</span>(cyl <span style="color:#f92672">==</span> <span style="color:#ae81ff">4</span>) <span style="color:#f92672">|&gt;</span> <span style="color:#a6e22e">\</span>(d) <span style="color:#a6e22e">lm</span>(mpg <span style="color:#f92672">~</span> disp, data <span style="color:#f92672">=</span> d)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#f92672">&gt;</span> mtcars <span style="color:#f92672">|&gt;</span> <span style="color:#a6e22e">subset</span>(cyl <span style="color:#f92672">==</span> <span style="color:#ae81ff">4</span>) <span style="color:#f92672">|&gt;</span> <span style="color:#a6e22e">\</span>(d) <span style="color:#a6e22e">lm</span>(mpg <span style="color:#f92672">~</span> disp, data <span style="color:#f92672">=</span> d)
 
 Call<span style="color:#f92672">:</span>
 <span style="color:#a6e22e">lm</span>(formula <span style="color:#f92672">=</span> mpg <span style="color:#f92672">~</span> disp, data <span style="color:#f92672">=</span> d)
