@@ -17,7 +17,7 @@
       <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>/2020/12/16/color/</guid>
-      <description>library(dplyr) for (i in 1:10){ print(&amp;#34;AAAAA&amp;#34;) } library(foreach) library(paralle) library(doParallel) cl &amp;lt;- parallel::makeCluster(4) doParallel::registerDoParallel(cl) M &amp;lt;- matrix(rnorm(1000000), ncol = 4) L &amp;lt;- foreach(i = 1:4, .combine = cbind) %dopar% { sapply(M[,i], function(x)x^2) } stopImplicitCluster() for i in range: print(&amp;#34;AAAAA&amp;#34;) 1 and 2 import pandas as pd from sklearn.ensemble import RandomForestRegressor from sklearn.metrics import mean_absolute_error from sklearn.model_selection import train_test_split from sklearn.tree import DecisionTreeRegressor # Set up code checking import os if not os.</description>
+      <description>library(dplyr) for (i in 1:10){ print(&amp;#34;AAAAA&amp;#34;) } library(foreach) library(paralle) library(doParallel) # aaaaa cl &amp;lt;- parallel::makeCluster(4) doParallel::registerDoParallel(cl) M &amp;lt;- matrix(rnorm(1000000), ncol = 4) L &amp;lt;- foreach(i = 1:4, .combine = cbind) %dopar% { sapply(M[,i], function(x)x^2) } stopImplicitCluster() for i in range: print(&amp;#34;AAAAA&amp;#34;) 1 and 2 import pandas as pd from sklearn.ensemble import RandomForestRegressor from sklearn.metrics import mean_absolute_error from sklearn.model_selection import train_test_split from sklearn.tree import DecisionTreeRegressor # Set up code checking import os if not os.</description>
     </item>
     
     <item>
