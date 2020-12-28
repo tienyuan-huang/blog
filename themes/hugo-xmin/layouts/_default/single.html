@@ -7,7 +7,9 @@
 
 <main>
 {{ .Content }}
+{{ partial "likecoin.html" . }}
 </main>
+
 
 <p class="terms">
   {{ range $i := (slice "categories" "tags") }}
