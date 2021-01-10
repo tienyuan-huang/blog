@@ -1,6 +1,5 @@
 ---
 title: about
-author: deadfate
 slug: about
 ---  
 黃天原，R語言使用者。正在努力往資料科學相關的領域前進。
