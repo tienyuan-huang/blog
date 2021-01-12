@@ -1,6 +1,6 @@
 ---
 title: 作文超進化 筆記心得
-author: deadfate
+author: 黃天原
 date: '2020-02-20'
 slug: how to write well
 categories:

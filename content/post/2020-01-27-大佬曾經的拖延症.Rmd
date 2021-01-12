@@ -1,6 +1,6 @@
 ---
 title: 大佬曾經的拖延症
-author: deadfate
+author: 黃天原
 date: '2020-01-27'
 slug: procrastination
 categories:

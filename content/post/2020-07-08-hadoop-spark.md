@@ -1,6 +1,6 @@
 ---
 title: Hadoop、Spark
-author: deadfate
+author: 黃天原
 date: '2020-07-08'
 slug: hadoop-spark
 categories:

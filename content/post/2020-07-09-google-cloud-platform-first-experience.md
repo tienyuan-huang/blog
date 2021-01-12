@@ -1,6 +1,6 @@
 ---
 title: google cloud platform 初體驗
-author: deadfate
+author: 黃天原
 date: '2020-07-09'
 slug: google cloud platform First Experience
 categories:

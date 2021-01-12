@@ -1,6 +1,6 @@
 ---
 title: R base的內建pipeline
-author: deadfate-sky
+author: 黃天原
 date: '2020-12-12'
 slug: r-base-pipeline
 categories:

@@ -1,6 +1,6 @@
 ---
 title: 文學教育
-author: deadfate
+author: 黃天原
 date: '2020-01-20'
 slug: chinese literature
 categories:

@@ -1,6 +1,6 @@
 ---
 title: 深度學習、神經網絡、吳恩達跟李宏毅
-author: deadfate
+author: 黃天原
 date: '2020-07-13'
 slug: deep learning neural network Andrew Ng Hung-yi Lee
 categories:

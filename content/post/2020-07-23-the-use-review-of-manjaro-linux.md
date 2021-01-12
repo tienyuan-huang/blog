@@ -1,6 +1,6 @@
 ---
 title: manjaro linux 使用心得
-author: deadfate-sky
+author: 黃天原
 date: '2020-07-23'
 slug: the-use-review-of-manjaro-linux
 categories:

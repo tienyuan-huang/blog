@@ -1,6 +1,6 @@
 ---
 title: 分析跟運作
-author: deadfate-sky
+author: 黃天原
 date: '2020-09-02'
 slug: analysis-and-operation
 categories:

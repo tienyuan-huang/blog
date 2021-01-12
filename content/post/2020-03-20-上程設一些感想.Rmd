@@ -1,6 +1,6 @@
 ---
 title: 上程設一些感想
-author: deadfate
+author: 黃天原
 date: '2020-03-20'
 slug: c-programming-class
 categories:

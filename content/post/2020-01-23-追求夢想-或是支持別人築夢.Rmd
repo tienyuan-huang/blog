@@ -1,6 +1,6 @@
 ---
 title: 追求夢想，或是支持別人築夢
-author: deadfate
+author: 黃天原
 date: '2020-01-23'
 slug: to dream or not to dream
 categories:

@@ -1,6 +1,6 @@
 ---
 title: color
-author: deadfate-sky
+author: 黃天原
 date: '2020-12-16'
 slug: color
 categories: []

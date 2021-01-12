@@ -1,6 +1,6 @@
 ---
 title: spin rate，還有棒球
-author: deadfate
+author: 黃天原
 date: '2020-01-23'
 slug: spinrate
 categories:

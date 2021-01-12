@@ -1,6 +1,6 @@
 ---
 title: 文組？理組？反正我是失敗組
-author: deadfate
+author: 黃天原
 date: '2020-01-23'
 slug: study
 categories:

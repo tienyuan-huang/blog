@@ -1,6 +1,6 @@
 ---
 title: jupyter擴充功能
-author: deadfate
+author: 黃天原
 date: '2020-04-21'
 slug: jupyter extension
 categories:
