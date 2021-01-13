@@ -5,4 +5,8 @@
 .Ruserdata
 blogdown
 public/
+public
+resources
 rename.R
+.DS_Store
+Thumbs.db
