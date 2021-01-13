@@ -4,13 +4,13 @@ title = "算是紀錄一下"
 theme = "hugo-xmin"
 googleAnalytics = "UA-156464110-1"
 disqusShortname = "deadfate"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 footnotereturnlinkcontents = "↩"
 hasCJKLanguage = true
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
-    ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+ 
 [[menu.main]]
     name = "Home"
     url = "/"
