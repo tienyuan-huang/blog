@@ -27,6 +27,10 @@ hasCJKLanguage = true
     name = "Tags"
     url = "/Tags/"
     weight = 4
+[[menu.main]]
+    name = "other-sites"
+    url = "/other-sites/"
+    weight = 5
 [params]
     author = "黃天原"
     description = "A website built through Hugo and blogdown."
