@@ -28,7 +28,7 @@ hasCJKLanguage = true
     url = "/Tags/"
     weight = 4
 [[menu.main]]
-    name = "other-sites"
+    name = "other sites"
     url = "/other-sites/"
     weight = 5
 [params]
