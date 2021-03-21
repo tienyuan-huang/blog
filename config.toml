@@ -31,10 +31,6 @@ hasCJKLanguage = true
     name = "Other sites"
     url = "/other-sites/"
     weight = 5
-[[menu.main]]
-    name = "Project"
-    url = "/project/"
-    weight = 6
 [params]
     author = "黃天原"
     description = "A website built through Hugo and blogdown."
