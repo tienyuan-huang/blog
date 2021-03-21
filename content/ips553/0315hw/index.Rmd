@@ -1,0 +1,13 @@
+---
+title: "0315-homework: 呂孫綾聲量探討"
+author: "黃天原"
+date: "`r Sys.Date()`"
+slug: 0315hw-Lu-Sun-Lin
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+source code連結： <https://github.com/deadfate-sky/IPS553_course_practice/blob/main/0315practice/legislator.ipynb>
+
+
