@@ -7,6 +7,7 @@ output:
   blogdown::html_page:
     toc: true
 ---
+內容尚未完成，先放上jupyter notebook的連結。
 
 source code連結： <https://github.com/deadfate-sky/IPS553_course_practice/blob/main/0315practice/legislator.ipynb>
 
