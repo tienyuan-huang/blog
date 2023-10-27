@@ -13,7 +13,7 @@ hasCJKLanguage = true
  
 [[menu.main]]
     name = "Home"
-    url = "/"
+    url = "/"   
     weight = 1
 [[menu.main]]
     name = "About"
@@ -27,10 +27,6 @@ hasCJKLanguage = true
     name = "Tags"
     url = "/Tags/"
     weight = 4
-[[menu.main]]
-    name = "Other sites"
-    url = "/other-sites/"
-    weight = 5
 [params]
     author = "黃天原"
     description = "A website built through Hugo and blogdown."

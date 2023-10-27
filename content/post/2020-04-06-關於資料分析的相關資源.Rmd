@@ -7,12 +7,8 @@ categories:
   - statistic
 tags:
   - R
-  - 乾貨
 ---
-###### tags: `statistics`
 由於我的統計學是在學校上的，所以就不推薦相關資源的。 [可汗學院](https://www.khanacademy.org/math/statistics-probability)的課程可以參考看看，coursera上應該也有不少```R```跟統計學相關的課程，都可以嘗試看看。畢竟如果只是基本的資料分析，並不需要到太艱難的統計學。
-
-不過最近多了好資源。有空推。  
 
 ## R language  
 
@@ -38,7 +34,6 @@ tags:
 去yt餵書名就會有網路課程可以看。  <br>
 而這本書的作者們，還有另一本更深入的機器學習聖經， [The Elements of
 Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)，如果要深入機器學習領域，就會接續看這本聖經。  <br>
-如果以馬克思主義為例，ISLR是共產黨宣言，而ESL就是資本論LUL。  
 
 * [google ML](https://developers.google.com/machine-learning/crash-course/ml-intro)  <br>
 google的ML課程大全，雖然我看得並不多，但也可以參考。除了這兩個推薦資源外，網路上還有非常多知名的機器學習資源，所以就不一一介紹了，例如吳恩達的課程。  <br>
@@ -50,10 +45,7 @@ google的ML課程大全，雖然我看得並不多，但也可以參考。除了
 
 * [Storytelling with data](http://www.storytellingwithdata.com/)  
 除了這個blog之外，作者也有出一本很有名的書 [storytelling with data中文版](https://www.books.com.tw/products/0010710103),因為中文書名翻太爛，我就照貼英文書名。這本書是一本資料視覺化的指南，基本上照著這本書，就能大致掌握資料視覺化的基本概念。當然，想做出實用的統計圖表，還是需要多學習別人的圖跟練習。  <br>
-作者也有製作podcast，相關字餵狗就有了。
-
-* [Practical R for Mass Communication and Journalism (1 edition)](https://psmethods.postach.io/link/yi-ben-rde-xin-shu-why-sharon-machlis-wrote-a-book-on-r-for-journalists-storybench)  
-連結有簡單介紹。  
+作者也有製作 podcast，相關字餵 google 就有了。
 
 ## 不錯的podcast推薦
 * [PolicyViz](https://policyviz.com/product/core-principles-of-data-visualization-cheatsheet/)  
