@@ -5,6 +5,7 @@ date: '2021-12-03'
 slug: 近期paper記錄隨筆
 categories:
   - 想法
+  - 學術研究
 tags:
   - 隨筆
   - 學習
