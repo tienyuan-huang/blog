@@ -11,3 +11,4 @@ rename.R
 .DS_Store
 Thumbs.db
 .csv
+.hugo_build.lock
