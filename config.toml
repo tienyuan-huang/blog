@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "算是紀錄一下"
 theme = "hugo-xmin"
 googleAnalytics = "G-5MGE2DNNX9"
-disqusShortname = "deadfate"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 footnotereturnlinkcontents = "↩"
 hasCJKLanguage = true
